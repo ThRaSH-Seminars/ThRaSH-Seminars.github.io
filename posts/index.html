@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+  
+    <meta name="description" content="Previous Seminars Seminars Spring 2021 These seminars were organised by Benjamin Doerr (École Polytechnique) and Per Kristian Lehre (University of Birmingham).
+Representing fitness landscapes by valued constraints to understand open-ended evolution Artem Kaznatcheev (Pennsylvania/Oxford) July 1st 2021, (7pm BST, 20:00 CEST, 2pm EDT) (NB! Note the unusual time.)
+Experiments show that evolutionary fitness landscapes can have a rich combinatorial structure due to epistasis. For some landscapes, this structure can produce a computational constraint that prevents evolution from finding local fitness optima thus overturning the traditional assumption that local fitness peaks can always be reached quickly if no other evolutionary forces challenge natural selection.">
+  
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.88.1" />
+  <title></title>
+  <link rel="canonical" href="posts/">
+
+
+  
+
+
+
+
+
+
+
+
+  
+    
+  
+  
+  <link rel="stylesheet" href="/css/base.min.93517f2a93cec85469f9cdeeeb394c597cc0b77bca73c262fa9e021e8b45a9b9.css" integrity="sha256-k1F/KpPOyFRp&#43;c3u6zlMWXzAt3vKc8Ji&#43;p4CHotFqbk=" crossorigin="anonymous">
+
+
+
+</head>
+
+<body>
+  <nav class="u-background">
+  <div class="u-wrapper">
+    <ul class="Banner">
+      <li class="Banner-item Banner-item--title">
+        <a class="Banner-link u-clickable" href="/./"></a>
+      </li>
+      
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/index.html">Home</a>
+        </li>
+      
+        <li class="Banner-item">
+          <a class="Banner-link u-clickable" href="/pre/index.html">Previous</a>
+        </li>
+      
+    </ul>
+  </div>
+</nav>
+  <main>
+    <div class="u-wrapper">
+      <div class="u-padding">
+        
+
+  <article>
+    <header class="Heading">
+  <h2 class="Heading-title">
+    <a class="Heading-link u-clickable" href="posts/" rel="bookmark"></a>
+  </h2>
+  
+</header>
+    <h2 id="previous-seminars">Previous Seminars</h2>
+<h3 id="seminars-spring-2021">Seminars Spring 2021</h3>
+<p>These seminars were organised by Benjamin Doerr (École Polytechnique) and Per Kristian Lehre (University of Birmingham).</p>
+<h4 id="july-1st-representing-fitness-landscapes-by-valued-constraints-to-understand-open-ended-evolution">Representing fitness landscapes by valued constraints to understand open-ended evolution</h4>
+<p>Artem Kaznatcheev (Pennsylvania/Oxford)
+July 1st 2021, (7pm BST, 20:00 CEST, 2pm EDT)
+(NB! Note the unusual time.)</p>
+<p>Experiments show that evolutionary fitness landscapes can have a rich
+combinatorial structure due to epistasis. For some landscapes, this
+structure can produce a computational constraint that prevents
+evolution from finding local fitness optima thus overturning the
+traditional assumption that local fitness peaks can always be reached
+quickly if no other evolutionary forces challenge natural
+selection. This creates a distinction between easy landscapes where
+local fitness peaks can be found quickly, and the hard landscapes of
+open-ended evolution where finding local optima is infeasible
+(PLS-complete).  To understand what separates easy landscape from hard
+landscapes, we represent landscapes using valued constraints.</p>
+<p>First, we show that for fitness landscapes representable by binary
+Boolean valued constraints there is a minimal necessary constraint
+graph that can be easily computed. Second, we consider landscapes as
+equivalent if they allow the same (improving) local search moves; we
+show that a minimal constraint graph still exists, but is NP-hard to
+compute.</p>
+<p>We then develop several techniques to bound the length of any sequence
+of improving local search moves. We show that a level-based analysis
+bound can be obtained from the numerical values of the constraints in
+the representation, and show how this bound may be tightened by
+considering equivalent representations. This level-based analysis
+gives a quadratic bound on the number of improving moves made by any
+local search for a degree 2 constraint graph. But to extend the
+quadratic bound to any tree-structured constraint graph requires us to
+introduce a new encouragement-path analysis instead of the level-based
+analysis.</p>
+<p>Finally, we build two families of examples to show that the conditions
+in our tractability results are essential. With domain size three,
+even just a path of binary constraints can model a landscape with an
+exponentially long sequence of improving moves. With a treewidth-two
+constraint graph, even with a maximum degree of three, binary Boolean
+constraints can model a landscape with an exponentially long sequence
+of improving moves.</p>
+<p>This talk is based on joint work with Dave Cohen and Peter Jeavons:</p>
+<p>Kaznatcheev, A. (2019). Computational complexity as an ultimate constraint on
+evolution. Genetics, 212(1), 245-265.</p>
+<p>Kaznatcheev, A., Cohen, D., &amp; Jeavons, P. (2020). Representing fitness
+landscapes by valued constraints to understand the complexity of local search.
+Journal of Artificial Intelligence Research, 69, 1077-1102.</p>
+<h4 id="provably-good-solutions-to-the-knapsack-problem-via-neural-networks-of-bounded-size">Provably Good Solutions to the Knapsack Problem via Neural Networks of Bounded Size</h4>
+<p>Christoph Hertrich (TU Berlin, Germany)
+June 24 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>The development of a satisfying and rigorous mathematical
+understanding of the performance of neural networks is a major
+challenge in computer science. Against this background, we study the
+expressive power of neural networks through the example of the
+classical NP-hard Knapsack Problem. Our main contribution is a class
+of recurrent neural networks (RNNs) with rectified linear units that
+are iteratively applied to each item of a Knapsack instance and
+thereby compute optimal or provably good solution values. We show that
+an RNN of depth four and width depending quadratically on the profit
+of an optimum Knapsack solution is sufficient to find optimum Knapsack
+solutions. We also prove the following tradeoff between the size of an
+RNN and the quality of the computed Knapsack solution: for Knapsack
+instances consisting of \(n\) items, an RNN of depth five and width \(w\)
+computes a solution of value at least \( 1 - O( n^2 / \sqrt{w} )\) times the
+optimum solution value. Our results build upon a classical dynamic
+programming formulation of the Knapsack Problem as well as a careful
+rounding of profit values that are also at the core of the well-known
+fully polynomial-time approximation scheme for the Knapsack Problem. A
+carefully conducted computational study qualitatively supports our
+theoretical size bounds. Finally, we point out that our results can be
+generalized to many other combinatorial optimization problems that
+admit dynamic programming solution methods, such as various Shortest
+Path Problems, the Longest Common Subsequence Problem, and the
+Travelling Salesperson Problem.</p>
+<h4 id="lazy-parameter-tuning-and-control-choosing-all-parameters-randomly-from-a-power-law-distribution">Lazy Parameter Tuning and Control: Choosing All Parameters Randomly From a Power-Law Distribution</h4>
+<p>Denis Antipov (ITMO University, Saint Petersburg, Russia)
+June 17 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>Most evolutionary algorithms have multiple parameters and their values
+drastically affect the performance. Due to the often complicated
+interplay of the parameters, setting these values right for a
+particular problem is a challenging task. This task becomes even more
+complicated when the optimal parameter values change significantly
+during the run of the algorithm since then a dynamic parameter choice
+is necessary.</p>
+<p>In this work, we propose a lazy but effective solution, namely
+choosing all parameter values in each iteration randomly from a
+suitably scaled power-law distribution. We demonstrate the
+effectiveness of this approach via runtime analyses of the \((1 +
+(\lambda, \lambda))\) genetic algorithm with all three parameters
+chosen in this manner. We show that this algorithm on the one hand can
+imitate simple hill-climbers like the (1+1) EA, giving the same
+asymptotic runtime on some simple problems. On the other hand, this
+algorithm is also very efficient on jump functions, where the best
+static parameters are very different from those necessary to optimize
+simple problems. We prove a performance guarantee that is comparable
+to, and sometimes even better than, the best performance known for
+static parameters. We complement our theoretical results with a
+rigorous empirical study confirming what the asymptotic runtime
+results suggest.</p>
+<p>(Joint work with Benjamin Doerr (Laboratoire d&rsquo;Informatique (LIX),
+CNRS,  cole Polytechnique, Palaiseau, France) and Maxim Buzdalov (ITMO
+University, Saint Petersburg, Russia))</p>
+<h4 id="populations-in-dynamic-optimization">Populations in Dynamic Optimization</h4>
+<p>Johannes Lengler (ETH, Switzerland)
+June 10 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>I will talk about optimization in an environment where the fitness
+function changes in every round. While we cannot expect reasonable
+behaviour in the general case, I will discuss two benchmarks, Dynamic
+Binary Value and Dynamic Linear Functions, in which we can hope that
+an optimization heuristic may find the global optimum. We understand
+the case of the (1+1)-EA very well. However, when we increase the
+population size and go to the (\(\mu\)+1)-EA, some quite unexpected
+population dynamics happen. In some cases, a larger population size
+makes it much easier to find the optimum. In other cases, a larger
+population size makes it much harder, and practically infeasible to
+find the opimum. Even for \(\mu=2\), the population dynamics has quite
+counter-intuitive effects.</p>
+<p>Our understanding is good enough to know that the population dynamics
+must have some strong and counterintuitive effect. But we do not
+understand the dynamics, and we don&rsquo;t even have an intuitive
+explanation where these effects might come from. I will give an
+overview of the known results, and particularly about the unsolved
+questions in this setting.</p>
+<h4 id="generalized-jump-functions">Generalized Jump Functions</h4>
+<p>Henry Bambury and Antoine Bultel (Ecole Polytechnique, France)
+June 3 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>Jump functions are the most studied non-unimodal benchmark in the
+theory of randomized search heuristics, in particular, evolutionary
+algorithms (EAs). They have significantly improved our understanding
+of how EAs escape from local optima. However, their particular
+structure &ndash; to leave the local optimum one can only jump directly to
+the global optimum &ndash; raises the question of how representative such
+results are.</p>
+<p>For this reason, we propose an extended class
+\(\text{Jump}_{k,\delta}\) of jump functions that contain a valley
+of low fitness of width \(\delta\) starting at distance \(k\) from the
+global optimum. We prove that several previous results extend to this
+more general class: for all \(k = o(n^{1/3})\) and \(\delta &lt; k\), the
+optimal mutation rate for the (1+1) EA is \(\frac{\delta}{n}\), and
+the fast (1+1) EA runs faster than the classical (1+1) EA by a
+factor super-exponential in \(\delta\). However, we also observe that
+some known results do not generalize: the randomized local search
+algorithm with stagnation detection, which is faster than the fast
+(1+1) EA by a factor polynomial in \(k\) on \(\text{Jump}_k\), is
+slower by a factor polynomial in \(n\) on some
+\(\text{Jump}_{k,\delta}\) instances.</p>
+<p>Computationally, the new class allows experiments with wider fitness valleys,
+especially when they lie further away from the global optimum.</p>
+<p>(Joint work with Benjamin Doerr)</p>
+<h4 id="when-move-acceptance-selection-hyper-heuristics-outperform-metropolis-and-elitist-evolutionary-algorithms-and-when-not">When Move Acceptance Selection Hyper-Heuristics Outperform Metropolis and Elitist Evolutionary Algorithms and When Not</h4>
+<p>John Alasdair Warwicker (Karlsruhe Institute of Technology, Germany)
+May 27th 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>Selection hyper-heuristics (HHs) are automated algorithm selection
+methodologies that choose between different heuristics during the
+optimisation process. Recently Selection HHs have been shown to
+optimise standard unimodal benchmark functions from evolutionary
+computation in the optimal expected runtime achievable with the
+available low-level heuristics. In this talk, we extend our
+understanding of the performance of HHs to the domain of multimodal
+optimisation by considering a Move Acceptance HH (MAHH) from the
+literature that can switch between elitist and non-elitist heuristics
+during the run.</p>
+<p>We first identify the range of parameters that allow MAHH to hillclimb
+efficiently. Afterwards, we use standard multimodal benchmark
+functions to highlight function characteristics where MAHH is
+efficient by quickly escaping local optima and ones where it is
+not. We then design a more general benchmark function class where the
+size and the gradient of the slopes leading to and away from the local
+optima can be tuned. This function class also allows us to highlight
+natural examples of when the use of non-elitism makes a difference
+between small polynomial expected runtimes versus the exponential
+runtime required by elitist search heuristics. We complete the picture
+by providing an example function where the sensitivity of Metropolis
+to differences in fitness values is crucial, allowing us to illustrate
+when it is able to significantly outperform the HH.</p>
+<p>Since the MAHH is essentially a non-elitist random local search
+heuristic, the talk is of independent interest to researchers in the
+fields of artificial intelligence and randomised search heuristics.</p>
+<p>(Joint work with Pietro Oliveto and Andrei Lissovoi.)</p>
+<h4 id="non-elitist-evolutionary-algorithms-excel-in-fitness-landscapes-with-sparse-deceptive-regions-and-dense-valleys">Non-elitist Evolutionary Algorithms Excel in Fitness Landscapes with Sparse Deceptive Regions and Dense Valleys</h4>
+<p>Per Kristian Lehre (University of Birmingham, UK)
+May 6th 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>It is largely unknown how the runtime of evolutionary algorithms (EAs)
+depends on fitness landscape characteristics for broad classes of
+problems. Runtime guarantees for complex and multi-modal problems
+where EAs are typically applied are rarely available.</p>
+<p>We present a parameterised problem class SparseLocalOpt\(_{\alpha,\varepsilon}\), where the
+class with parameters \(\alpha,\varepsilon\in[0,1]\) contains all fitness
+landscapes with deceptive regions of sparsity \(\varepsilon\) and
+fitness valleys of density \(\alpha\).  We study how the runtime of EAs
+depends on these fitness landscape parameters.</p>
+<p>We find that for any constant density and sparsity
+\(\alpha,\varepsilon\in(0,1)\), SparseLocalOpt\(_{\alpha,\varepsilon}\) has exponential elitist
+(\(\mu\)+\(\lambda\)) black-box complexity, implying that a wide range of
+elitist EAs fail even for mildly deceptive and multi-modal
+landscapes. In contrast, we derive a set of sufficient conditions for
+non-elitist EAs to optimise any problem in SparseLocalOpt\(_{\alpha,\varepsilon}\) in expected
+polynomial time for broad values of \(\alpha\) and \(\varepsilon\).  These
+conditions can be satisfied for tournament selection and linear
+ranking selection, but not for (\(\mu\),\(\lambda\))-selection.</p>
+<p>(Joint work with Duc-Cuong Dang and Anton Eremeev.)</p>
+<h4 id="analysis-of-evolutionary-algorithms-on-fitness-function-with-time-linkage-property">Analysis of Evolutionary Algorithms on Fitness Function with Time-linkage Property</h4>
+<p>Weijie Zheng (Southern University of Science and Technology)
+April 22nd 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>In real-world applications, many optimization problems have the
+time-linkage property, that is, the objective function value relies on
+the current solution as well as the historical solutions. Although the
+rigorous theoretical analysis on evolutionary algorithms has rapidly
+developed in recent two decades, it remains an open problem to
+theoretically understand the behaviors of evolutionary algorithms on
+time-linkage problems. This paper takes the first step to rigorously
+analyze evolutionary algorithms for time-linkage functions. Based on
+the basic OneMax function, we propose a time-linkage function where
+the first bit value of the last time step is integrated but has a
+different preference from the current first bit. We prove that with
+probability \( 1-o(1) \), randomized local search and (1+1) EA cannot
+find the optimum, and with probability \( 1 -o(1)\), (\(\mu\) + 1) EA
+is able to reach the optimum.</p>
+<p>(Joint work with Huanhuan Chen and Xin Yao).</p>
+<h4 id="tight-bounds-on-the-expected-runtime-of-a-standard-steady-state-genetic-algorithm">Tight Bounds on the Expected Runtime of a Standard Steady State Genetic Algorithm</h4>
+<p>Dirk Sudholt (University of Passau)
+April 15th 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>Recent progress in the runtime analysis of evolutionary algorithms
+(EAs) has allowed the derivation of upper bounds on the expected
+runtime of standard steady-state Genetic Algorithms (GAs). These upper
+bounds have shown speed-ups of the GAs using crossover and mutation
+over the same algorithms that only use mutation operators (i.e.,
+steady-state EAs) both for standard unimodal (i.e., OneMax) and
+multimodal (i.e., Jump) benchmark functions. The bounds suggest that
+populations are beneficial to the GA as well as higher mutation rates
+than the default \(1/n\) rate. However, making rigorous claims was not
+possible because matching lower bounds were not available. Proving
+lower bounds on crossover-based EAs is a notoriously difficult task as
+it is hard to capture the progress that a diverse population can make.
+We use a potential function approach to prove a tight lower bound on
+the expected runtime of the (2+1) GA for OneMax for all mutation rates
+\( c/n \) with \( c &lt; 1.422 \). This provides the last piece of the puzzle
+that completes the proof that larger population sizes improve the
+performance of the standard steady-state GA for OneMax for various
+mutation rates, and it proves that the optimal mutation rate for the
+(2+1) GA on OneMax is \( (\sqrt{97}-5)/(4n) \approx 1.2122/n \).</p>
+<h4 id="evolutionary-minimization-of-traffic-congestion">Evolutionary Minimization of Traffic Congestion</h4>
+<p>Martin Krejca (Sorbonne University)
+April 8th 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>Traffic congestion is a major issue that can be solved by suggesting
+drivers alternative routes they are willing to take. This concept has been
+formalized as a strategic routing problem in which a single alternative
+route is suggested to an existing one. In this talk, we extend this
+formalization and introduce the Multiple-Routes problem, which is given a
+start and a destination and then aims at finding up to \( n \) different routes
+that the drivers strategically disperse over, minimizing the overall travel
+time of the system. Due to the NP-hard nature of the problem, we introduce
+the Multiple-Routes evolutionary algorithm (MREA) as a heuristic solver. We
+study several mutation and crossover operators and evaluate them on
+real-world data of the city of Berlin, Germany.</p>
+<p>Please note that this work is empirical. However, the formalization of
+the objective function stems from game theory, with some proven
+guarantees.  Thus, there might be the possibility of approaching our
+setting also from a theoretical perspective.</p>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-Krejca-2021-04-08.pdf">slides</a></p>
+<h4 id="pareto-optimization-for-subset-selection-with-dynamic-partition-matroid-constraints">Pareto Optimization for Subset Selection with Dynamic Partition Matroid Constraints</h4>
+<p>Viet Anh Do (University of Adelaide)
+April 1st 2021, (1pm BST, 14:00 CEST, 8am EDT)</p>
+<p>In this talk, we consider the subset selection problems with submodular or
+monotone discrete objective functions under partition matroid constraints. We
+focus on POMC, a simple Pareto optimization approach that has been shown to be
+effective on such problems. Our analysis departs from singular constraint
+problems and extends to problems with multiple constraints. We add to the
+existing results of POMC&rsquo;s worst-case performance with parameters related to
+the partition matroid constraints. Additionally, we show that when the
+constraint thresholds change dynamically, the algorithm is able to maintain the
+approximation guarantees w.r.t. the new constraints and optima in polynomial
+time. Lastly, we highlight the difficulties in worst-case analyses in the
+presence of multiple constraints.</p>
+<h4 id="result-diversification-by-multi-objective-evolutionary-algorithms">Result Diversification by Multi-objective Evolutionary Algorithms</h4>
+<p>Chao Qian (Nanjing University)
+March 25th 2021, (1pm GMT, 14:00 CET, 9am EDT)</p>
+<p>Given a ground set of items, result diversification aims to select a
+subset with high ``quality&quot; and ``diversity&quot; while satisfying some
+constraints. It arises in various real-world applications, such as
+web-based search, document summarization, feature selection and
+facility location, just to name a few. The quality can often be
+characterized by a monotone submodular function, and the diversity is
+usually measured by the sum of distances between the selected
+items. In this talk, we will introduce how to apply multi-objective
+evolutionary algorithms (MOEAs) to solve the result diversification
+problem. We will show that MOEAs can achieve the (asymptotically)
+optimal polynomial-time approximation ratio for the problem with
+cardinality constraints as well as the more general matroid
+constraints. Furthermore, we will show that when the quality or
+distance changes dynamically, MOEAs can maintain the optimal
+approximation ratio in polynomial running time, which addresses the
+open question proposed by [Borodin et al. TALG'17].</p>
+<h3 id="seminars-autumn-2020">Seminars Autumn 2020</h3>
+<p>These seminars were organised by Carsten Witt (DTU) and Timo Koetzing
+(HPI).</p>
+<h4 id="exponential-upper-bounds">Exponential Upper Bounds</h4>
+<p>Speaker: Benjamin Doerr, Ecole Polytechnique, France
+October 9, 2020</p>
+<p>Throughout the (young) history of runtime analysis of evolutionary
+algorithms (EAs), exponential lower bounds have been used to argue
+that a certain algorithm is not suited for a certain task, and this
+was generally seen as the end of this story. In this talk, I argue
+that there are at least two reasons to not stop thinking here. One is
+the general recent trend in classic algorithmics to also study
+exponential-time algorithms (for various reasons). The other is that
+an exponential lower bound still leaves open the basic question what
+is the runtime in this case. It could be much higher than exponential,
+and indeed, runtimes like \( n^{\Theta(n)} \) have been observed with
+standard EAs as well. There is some progress on the second point: Via
+a simple hope-for-extreme-luck argument, I easily prove several
+exponential upper bounds, many of them matching well-known lower
+bounds. As one particular result, I show that any of the algorithms
+randomized local search, Metropolis algorithm, simulated annealing,
+and (1+1) evolutionary algorithm can optimize any pseudo-Boolean
+weakly monotonic function under a large set of noise assumptions in a
+runtime that is at most exponential. This extends a previous result,
+limited to the (1+1) EA, the LeadingOnes function, and one-bit or
+bit-wise prior noise with noise probability at most
+\( 1/2\). Unfortunately, all these bounds are not yet of the type \(C^n\) for
+a constant C &lt; 2, and thus they are not yet interesting in the
+perspective of classic algorithms. This is clearly an interesting
+problem for future work. The hope-for-extreme-luck argument so far
+seems to work mostly for (1+1)-type algorithms. Already for the
+\( (1+\lambda)\) EA, some technical difficulties arise. Overcoming these (or
+proving super-exponential bounds) is a second problem we have to leave
+open. A preliminary version of these results was presented at
+PPSN 2020. The full paper can be found on the arxiv preprint server.</p>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-doerr-2020-10-09.pdf">slides</a></p>
+<h4 id="web-survey-on-the-analysis-of-randomized-search-heuristics">Web-survey on the analysis of randomized search heuristics</h4>
+<p>Timo Koetzing, Hasso Plattner Institute Potsdam, Germany
+October 16, 2020</p>
+<p>Presentation of ongoing work to establish a web survey covering the
+most important concepts in the theoretical analysis of randomized
+search heuristics, followed by discussion in break-out groups</p>
+<h4 id="exponential-upper-bounds-via-drift-analysis">Exponential Upper Bounds via Drift Analysis</h4>
+<p>Carsten Witt, Technical University of Denmark
+October 23, 2020</p>
+<p>Drift analysis is a key tool for the runtime analysis of randomized
+search heuristics. Usually, it is used to translate information on the
+expected one-step progress of the underlying stochastic process, the
+so-called drift towards the optimum, into a statement on the expected
+optimization time of the search heuristic. However, drift analysis is
+more versatile. In the talk, I will discuss the use of potential
+functions in drift theorems to bound the optimization time in
+scenarios where the process does not have a drift towards the
+optimum. This results in exponential upper bounds on the expected
+optimization time. Moreover, I would like to discuss how this approach
+compares with the recent technique by Doerr (PPSN 2020) that derives
+exponential upper bounds based on lucky sequences of improving steps.</p>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Witt-2020-10-23.pdf">slides</a></p>
+<h4 id="time-flexible-drift-theorems">Time-flexible Drift Theorems</h4>
+<p>Martin Krejca, Hasso Plattner Institute Potsdam, Germany
+October 30, 2020</p>
+<p>Drift theory is a collection of theorems that bound the expected
+stopping time of time-discrete random processes over the reals that
+have a consistent bias &ndash; the drift &ndash; in decreasing in expectation in
+each step. The beauty of drift theory stems from translating a bound
+for the drift immediately into a bound for the expected stopping
+time. In other words, local information about the one-step change of
+the process is turned into global information about the behavior of
+the entire process. However, a downside of drift theory is that the
+application of a drift theorem is usually preceded by defining a
+useful potential function that transform the random process into one
+that has the desired drift. This step is not straightforward.</p>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-krejca-2020-10-30.pdf">slides</a></p>
+<h4 id="social-gathering">Social gathering</h4>
+<p>November 4, 2020</p>
+<h4 id="self-adjusting-evolutionary-algorithms-for-multimodal-optimization">Self-Adjusting Evolutionary Algorithms for Multimodal Optimization</h4>
+<p>Amirhossein Rajabi, Technical University of Denmark
+November 13, 2020</p>
+<p>Recent theoretical research has shown that self-adjusting and
+self-adaptive mechanisms can provably outperform static settings in
+evolutionary algorithms for binary search spaces. However, the vast
+majority of these studies focuses on unimodal functions which do not
+require the algorithm to flip several bits simultaneously to make
+progress. In fact, common self-adjusting algorithms are not designed
+to detect local optima and do not have any obvious benefit to cross
+large Hamming gaps. A mechanism called stagnation detection is
+suggested, which can be added as a module to existing evolutionary
+algorithms. Added to a simple (1+1) EA and RLS, we proved an efficient
+expected runtime on leaving local optima without changing the
+behaviour of the algorithm on unimodal functions.</p>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-rajabi-2020-11-13.pdf">slides</a></p>
+
+    
+
+
+  
+
+  
+
+
+
+
+
+    
+  
+
+  </article>
+
+
+      </div>
+    </div>
+  </main>
+  
+  <footer class="Footer">
+    <div class="u-wrapper">
+      <div class="u-padding">
+        Except where otherwise noted, content on this site is licensed under a &#32; <a href="http://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International License</a>.
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript"
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+
+</body>
+
+</html>

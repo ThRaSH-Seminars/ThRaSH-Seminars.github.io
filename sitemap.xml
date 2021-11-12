@@ -4,9 +4,19 @@
   <url>
     <loc>./</loc>
   </url><url>
-    <loc>./</loc>
+    <loc>./en/post/</loc>
+  </url><url>
+    <loc>./home/</loc>
+  </url><url>
+    <loc>./posts/</loc>
+  </url><url>
+    <loc>./pre/</loc>
+  </url><url>
+    <loc>./test/</loc>
   </url><url>
     <loc>./categories/</loc>
+  </url><url>
+    <loc>./en/</loc>
   </url><url>
     <loc>./tags/</loc>
   </url>
