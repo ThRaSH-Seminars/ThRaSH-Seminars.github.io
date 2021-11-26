@@ -11,7 +11,7 @@
       <title></title>
       <link>./en/post/</link>
       <guid>./en/post/</guid>
-      <description>&lt;h2 id=&#34;thrash-seminars---autumn-2021-and-spring-2022&#34;&gt;ThRaSH Seminars - Autumn 2021 and Spring 2022&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;thrash-seminars---winter-2021-and-spring-2022&#34;&gt;ThRaSH Seminars - Winter 2021 and Spring 2022&lt;/h2&gt;
 &lt;h3 id=&#34;about&#34;&gt;About ThRaSH&lt;/h3&gt;
 &lt;p&gt;Randomized search heuristics such as stochastic gradient methods, simulated annealing, evolutionary algorithms, stochastic neural networks for optimization, ant colony and swarm optimization, and the cross-entropy method are frequently used across many scientific communities. They have been successfully applied in various domains, both for combinatorial and numerical optimization. Despite their success in practice, proving that such algorithms satisfy certain performance guarantees is still a difficult and widely open problem.&lt;/p&gt;
 &lt;p&gt;The mission of the theory of randomized search heuristics (ThRaSH) seminar series is to contribute to the theoretical understanding of randomized search heuristics, in particular of their computational complexity. The aim is to stimulate interactions within the research field and between people from different disciplines working on randomized algorithms. The primary focus is on discussing recent ideas and detecting challenging topics for future work, rather than on the presentation of final results.&lt;/p&gt;
@@ -24,7 +24,7 @@
 &lt;li&gt;&lt;a href=&#34;http://staffwww.dcs.shef.ac.uk/people/P.Oliveto/&#34;&gt;Pietro S. Oliveto&lt;/a&gt; (University of Sheffield)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.imm.dtu.dk/~cawi/&#34;&gt;Carsten Witt&lt;/a&gt; (Technical University of Denmark)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h3 id=&#34;seminars-autumn-2021-and-spring-2022&#34;&gt;Seminars Autumn 2021 and Spring 2022&lt;/h3&gt;
+&lt;h3 id=&#34;seminars-winter-2021-and-spring-2022&#34;&gt;Seminars Winter 2021 and Spring 2022&lt;/h3&gt;
 &lt;p&gt;Organisers:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://as.inf.ethz.ch/people/members/lenglerj/index.html&#34;&gt;Johannes Lengler&lt;/a&gt; (ETH Zürich)&lt;/li&gt;
@@ -32,9 +32,9 @@
 &lt;/ul&gt;
 &lt;p&gt;Zoom link for all talks:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;lt;&amp;gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09&#34;&gt;https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Due to holidays and deadlines, this round seminars will be divided into two sessions, Autumn 2021 (November/December 2021) and Spring 2022 (mid-February/March 2022).&lt;/p&gt;
+&lt;p&gt;Due to holidays and deadlines, this round seminars will be divided into two sessions, Winter 2021 (December 2021) and Spring 2022 (March/April 2022).&lt;/p&gt;
 &lt;h4 id=&#34;title-tbd&#34;&gt;Title: TBD&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cs.bham.ac.uk/~lehrepk/&#34;&gt;Per Kristian Lehre&lt;/a&gt; (University of Birmingham)
 March 4th 2022, (10:00-11:00 UTC)&lt;/p&gt;
