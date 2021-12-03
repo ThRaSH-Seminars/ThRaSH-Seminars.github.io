@@ -40,9 +40,10 @@ March 4th 2022, (10:00-11:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;title-tbd-1&#34;&gt;Title: TBD&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.imm.dtu.dk/~cawi/&#34;&gt;Carsten Witt&lt;/a&gt; (Technical University of Denmark)
 December 17th 2021, (10:00-11:00 UTC)&lt;/p&gt;
-&lt;h4 id=&#34;title-tbd-2&#34;&gt;Title: TBD&lt;/h4&gt;
+&lt;h4 id=&#34;on-runtime-of-non-elitist-evolutionary-algorithms-optimizing-fitness-functions-with-plateaus&#34;&gt;On runtime of non-elitist evolutionary algorithms optimizing fitness functions with plateaus&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://iitam.omsk.net.ru/~eremeev/index_e.htm&#34;&gt;Anton Eremeev&lt;/a&gt; (Sobolev Institute of Mathematics)
 December 10th 2021, (10:00-11:00 UTC)&lt;/p&gt;
+&lt;p&gt;We consider the expected runtime of evolutionary algorithms (EAs) without elite individuals, based on the bitwise mutation, when they are applied to optimize fitness functions with plateaus of constant fitness. To this end, we consider two types of fitness functions: the Plateau_k function with a plateau of second-best fitness in a ball of radius k around the unique optimum, and the Royal Road function. For the Plateau_k function, we obtain polynomial upper bounds on the expected runtime for some modes of non-elitist EAs based on an unbiased mutation, in particular, the bitwise mutation. This is shown using the level-based theorems. We also note that the EA with fitness-proportionate selection is inefficient for this function, if the bitwise mutation is used with the standard settings of mutation probability. For the Royal Road function, we obtain lower and  upper bounds on the expected runtime, which generalize the previously known bounds for the OneMax function.&lt;/p&gt;
 &lt;h4 id=&#34;a-simple-proof-of-the-general-omegan-log-n-lower-bound-for-mutation-based-evolutionary-algorithms&#34;&gt;A simple proof of the general \(\Omega(n \log n)\) lower bound for mutation-based evolutionary algorithms&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cs.bham.ac.uk/~jer/&#34;&gt;Jonathan Rowe&lt;/a&gt; (University of Birmingham)
 December 3rd 2021, (10:00-11:00 UTC)&lt;/p&gt;
