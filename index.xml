@@ -35,12 +35,22 @@
 &lt;/ul&gt;
 &lt;p&gt;Due to holidays and deadlines, this round seminars will be divided into two sessions, Winter 2021 (December 2021) and Spring 2022 (March/April 2022).&lt;/p&gt;
 &lt;h4 id=&#34;title-tbd&#34;&gt;Title: TBD&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;http://staffwww.dcs.shef.ac.uk/people/m.hevia_fajardo/index.html&#34;&gt;Mario A. Hevia Fajardo&lt;/a&gt; (University of Sheffield)
+&lt;p&gt;&lt;a href=&#34;https://webia.lip6.fr/~doerr/&#34;&gt;Carola Doerr&lt;/a&gt; (Sorbonne Université)
 April 22th 2022, (9:00-10:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;there-will-be-no-seminar-on-april-15th-2022-due-to-the-public-holiday-in-several-countries&#34;&gt;There will be no seminar on April 15th 2022 due to the public holiday in several countries.&lt;/h4&gt;
+&lt;h4 id=&#34;title-tbd-1&#34;&gt;Title: TBD&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;http://staffwww.dcs.shef.ac.uk/people/m.hevia_fajardo/index.html&#34;&gt;Mario A. Hevia Fajardo&lt;/a&gt; (University of Sheffield)
+April 8th 2022, (9:00-10:00 UTC)&lt;/p&gt;
+&lt;h4 id=&#34;title-tbd-2&#34;&gt;Title: TBD&lt;/h4&gt;
+&lt;p&gt;TBD
+April 1st 2022, (9:00-10:00 UTC)&lt;/p&gt;
+&lt;h4 id=&#34;notice-from-march-27th-onwards-we-will-switch-the-time-slot-to-9-10-utc--11-12-european-time--17-18-beijing-time-due-to-the-daylight-saving-time&#34;&gt;Notice: From March 27th onwards, we will switch the time slot to 9-10 UTC = 11-12 European time = 17-18 Beijing time due to the daylight saving time.&lt;/h4&gt;
+&lt;h4 id=&#34;title-tbd-3&#34;&gt;Title: TBD&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://hpi.de/friedrich/people/timo-koetzing.html&#34;&gt;Timo Kötzing&lt;/a&gt; (Hasso Plattner Institute)
+March 25th 2022, (10:00-11:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;first-runtime-analyses-for-the-nsga-ii&#34;&gt;First Runtime Analyses for the NSGA-II&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.lix.polytechnique.fr/Labo/Benjamin.Doerr/&#34;&gt;Benjamin Doerr&lt;/a&gt; (École Polytechnique)
-April 8th 2022, (9:00-10:00 UTC)&lt;/p&gt;
+March 18th 2022, (10:00-11:00 UTC)&lt;/p&gt;
 &lt;p&gt;In this talk, I will report about recent research on the runtime of the
 NSGA-II multi-objective evolutionary algorithm, more precisely, the
 results just presented at AAAI and those obtained in the time up to the
@@ -62,16 +72,6 @@ the NSGA-II cannot efficiently compute the full Pareto front (for an
 exponential number of iterations, the population will always miss a
 constant fraction of the Pareto front). Our experiments confirm the
 above findings.&lt;/p&gt;
-&lt;h4 id=&#34;title-tbd-1&#34;&gt;Title: TBD&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://webia.lip6.fr/~doerr/&#34;&gt;Carola Doerr&lt;/a&gt; (Sorbonne Université)
-April 1st 2022, (9:00-10:00 UTC)&lt;/p&gt;
-&lt;h4 id=&#34;notice-from-march-27th-onwards-we-will-switch-the-time-slot-to-9-10-utc--11-12-european-time--17-18-beijing-time-due-to-the-daylight-saving-time&#34;&gt;Notice: From March 27th onwards, we will switch the time slot to 9-10 UTC = 11-12 European time = 17-18 Beijing time due to the daylight saving time.&lt;/h4&gt;
-&lt;h4 id=&#34;title-tbd-2&#34;&gt;Title: TBD&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://hpi.de/friedrich/people/timo-koetzing.html&#34;&gt;Timo Kötzing&lt;/a&gt; (Hasso Plattner Institute)
-March 25th 2022, (10:00-11:00 UTC)&lt;/p&gt;
-&lt;h4 id=&#34;title-tbd-3&#34;&gt;Title: TBD&lt;/h4&gt;
-&lt;p&gt;&lt;a href=&#34;https://www.cs.bham.ac.uk/~lehrepk/&#34;&gt;Per Kristian Lehre&lt;/a&gt; (University of Birmingham)
-March 18th 2022, (10:00-11:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;simulated-annealing-and-metropolis-algorithm-revisited-in-pseudo-boolean-optimization&#34;&gt;Simulated Annealing and Metropolis Algorithm Revisited in Pseudo-Boolean Optimization&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.imm.dtu.dk/~cawi/&#34;&gt;Carsten Witt&lt;/a&gt; (Technical University of Denmark)
 December 17th 2021, (10:00-11:00 UTC)&lt;/p&gt;
