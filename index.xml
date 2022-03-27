@@ -45,7 +45,7 @@ April 22th 2022, (9:00-10:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;title-tbd-1&#34;&gt;Title: TBD&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://staffwww.dcs.shef.ac.uk/people/m.hevia_fajardo/index.html&#34;&gt;Mario A. Hevia Fajardo&lt;/a&gt; (University of Sheffield)
 April 8th 2022, (9:00-10:00 UTC)&lt;/p&gt;
-&lt;h4 id=&#34;runtime-analysis-of-competitive-co-evolutionary-algorithms&#34;&gt;Runtime Analysis of Competitive Co-Evolutionary Algorithms&lt;/h4&gt;
+&lt;h4 id=&#34;first-runtime-analyses-of-competitive-population-based-co-evolutionary-algorithms&#34;&gt;First Runtime Analyses of Competitive Population-based Co-Evolutionary Algorithms&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cs.bham.ac.uk/~lehrepk/&#34;&gt;Per Kristian Lehre&lt;/a&gt; (University of Birmingham)
 April 1st 2022, (9:00-10:00 UTC)&lt;/p&gt;
 &lt;p&gt;Co-evolutionary algorithms have a wide range of applications, such as
@@ -55,7 +55,7 @@ understood and applications are often limited by pathological
 behaviour, such as loss of gradient, relative over-generalisation, and
 mediocre objective stasis. It is an open challenge to develop a theory
 that can predict when co-evolutionary algorithms find solutions
-efficiently and reliable.&lt;/p&gt;
+efficiently and reliably.&lt;/p&gt;
 &lt;p&gt;This talk describes, to our knowledge for the first time, runtime
 analysis of population-based competitive co-evolutionary
 algorithms. We provide a mathematical framework for describing and
