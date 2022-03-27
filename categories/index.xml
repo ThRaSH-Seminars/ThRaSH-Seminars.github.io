@@ -45,9 +45,25 @@ April 22th 2022, (9:00-10:00 UTC)&lt;/p&gt;
 &lt;h4 id=&#34;title-tbd-1&#34;&gt;Title: TBD&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://staffwww.dcs.shef.ac.uk/people/m.hevia_fajardo/index.html&#34;&gt;Mario A. Hevia Fajardo&lt;/a&gt; (University of Sheffield)
 April 8th 2022, (9:00-10:00 UTC)&lt;/p&gt;
-&lt;h4 id=&#34;title-tbd-2&#34;&gt;Title: TBD&lt;/h4&gt;
+&lt;h4 id=&#34;runtime-analysis-of-competitive-co-evolutionary-algorithms&#34;&gt;Runtime Analysis of Competitive Co-Evolutionary Algorithms&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://www.cs.bham.ac.uk/~lehrepk/&#34;&gt;Per Kristian Lehre&lt;/a&gt; (University of Birmingham)
 April 1st 2022, (9:00-10:00 UTC)&lt;/p&gt;
+&lt;p&gt;Co-evolutionary algorithms have a wide range of applications, such as
+in hardware design, evolution of strategies for board games, and
+patching software bugs. However, these algorithms are poorly
+understood and applications are often limited by pathological
+behaviour, such as loss of gradient, relative over-generalisation, and
+mediocre objective stasis. It is an open challenge to develop a theory
+that can predict when co-evolutionary algorithms find solutions
+efficiently and reliable.&lt;/p&gt;
+&lt;p&gt;This talk describes, to our knowledge for the first time, runtime
+analysis of population-based competitive co-evolutionary
+algorithms. We provide a mathematical framework for describing and
+reasoning about the performance of co-evolutionary processes. An
+example application of the framework shows a scenario where a simple
+co-evolutionary algorithm obtains a solution in polynomial expected
+time. We also describe settings where co-evolutionary algorithms need
+exponential time with overwhelmingly high probability.&lt;/p&gt;
 &lt;h4 id=&#34;notice-from-march-27th-onwards-we-will-switch-the-time-slot-to-9-10-utc--11-12-european-time--17-18-beijing-time-due-to-the-daylight-saving-time&#34;&gt;Notice: From March 27th onwards, we will switch the time slot to 9-10 UTC = 11-12 European time = 17-18 Beijing time due to the daylight saving time.&lt;/h4&gt;
 &lt;h4 id=&#34;how-do-heuristic-search-algorithms-filter-noise&#34;&gt;How do Heuristic Search Algorithms Filter Noise?&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;https://hpi.de/friedrich/people/timo-koetzing.html&#34;&gt;Timo Kötzing&lt;/a&gt; (Hasso Plattner Institute)
