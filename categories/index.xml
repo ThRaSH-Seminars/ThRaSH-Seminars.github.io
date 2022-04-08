@@ -33,7 +33,27 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09&#34;&gt;https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Due to holidays and deadlines, this round seminars will be divided into two sessions, Winter 2021 (December 2021) and Spring 2022 (March/April 2022).&lt;/p&gt;
+&lt;p&gt;Due to holidays and deadlines, this round seminars will be divided into two sessions, Winter 2021 (December 2021) and Spring 2022 (March-May 2022).&lt;/p&gt;
+&lt;h4 id=&#34;crossover-aided-biased-walking-on-plateaus&#34;&gt;Crossover-Aided Biased Walking on Plateaus&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://ctlab.itmo.ru/~mbuzdalov/&#34;&gt;Maxim Buzdalov&lt;/a&gt;
+May 13th 2022, (9:00-10:00 UTC)&lt;/p&gt;
+&lt;p&gt;Many discrete optimization problems feature plateaus, which are hard
+to evolutionary algorithms due to the lack of fitness guidance. While
+higher mutation rates may assist in making a jump from the plateau to
+some better search point, an algorithm is otherwise doomed to perform
+random walks on a plateau, possibly with some assistance from
+diversity mechanisms.&lt;/p&gt;
+&lt;p&gt;In this talk, I present a new mechanism that helps escaping from the
+plateau by introducing additional drift towards promising points. It
+has been discovered when analysing why the (1+(λ,λ)) GA with
+standard parameters solves certain instances of the vertex cover
+problem exponentially faster than the (1+1) EA. An intricate interplay
+between the problem structure and the way crossovers are used results
+in a drift towards the points where finding the next improvement is
+much easier. Despite apparent subtlety, this mechanism seems to be
+active on a large fraction of randomly generated vertex cover problem
+instances, which I find surprising and inspiring.&lt;/p&gt;
+&lt;h4 id=&#34;there-will-be-no-seminar-on-may-6th-2022-due-to-the-dagstuhl-seminar&#34;&gt;There will be no seminar on May 6th 2022 due to the Dagstuhl seminar.&lt;/h4&gt;
 &lt;h4 id=&#34;running-time-analysis-of-the-non-dominated-sorting-genetic-algorithm-ii-nsga-ii-using-binary-or-stochastic-tournament-selection&#34;&gt;Running Time Analysis of the Non-dominated Sorting Genetic Algorithm II (NSGA-II) using Binary or Stochastic Tournament Selection&lt;/h4&gt;
 &lt;p&gt;&lt;a href=&#34;http://www.lamda.nju.edu.cn/bianc/&#34;&gt;Chao Bian&lt;/a&gt; (Nanjing University)
 April 29th 2022, (9:00-10:00 UTC)&lt;/p&gt;
