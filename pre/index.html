@@ -8,9 +8,9 @@
 
 
   
-    <meta name="description" content="Previous Seminars Seminars Spring 2021 These seminars were organised by Benjamin Doerr (École Polytechnique) and Per Kristian Lehre (University of Birmingham).
+<!--    <meta name="description" content="Previous Seminars Seminars Spring 2021 These seminars were organised by Benjamin Doerr (École Polytechnique) and Per Kristian Lehre (University of Birmingham).
 Representing fitness landscapes by valued constraints to understand open-ended evolution Artem Kaznatcheev (Pennsylvania/Oxford) July 1st 2021, (7pm BST, 20:00 CEST, 2pm EDT)
-Experiments show that evolutionary fitness landscapes can have a rich combinatorial structure due to epistasis. For some landscapes, this structure can produce a computational constraint that prevents evolution from finding local fitness optima thus overturning the traditional assumption that local fitness peaks can always be reached quickly if no other evolutionary forces challenge natural selection.">
+Experiments show that evolutionary fitness landscapes can have a rich combinatorial structure due to epistasis. For some landscapes, this structure can produce a computational constraint that prevents evolution from finding local fitness optima thus overturning the traditional assumption that local fitness peaks can always be reached quickly if no other evolutionary forces challenge natural selection."> -->
   
 
 
@@ -76,6 +76,122 @@ Experiments show that evolutionary fitness landscapes can have a rich combinator
   
 </header>
     <h2 id="previous-seminars">Previous Seminars</h2>
+
+<h3 id="seminars-winter-2021-and-spring-2022">Seminars Winter 2021 and Spring 2022</h3>
+<p>These seminars were organised by
+<a href="https://as.inf.ethz.ch/people/members/lenglerj/index.html">Johannes
+Lengler</a> (ETH Zürich)
+and <a href="https://zhengwj13.github.io">Weijie Zheng</a> (Harbin
+Institute of Technology, Shenzhen</p>
+
+<!-- <p>Zoom link for all talks:</p>
+<ul>
+<li><a href="https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09">https://ethz.zoom.us/j/65881358415?pwd=MHArejFkMmtDSFNNMjUxZTZ2WWNjUT09</a></li>
+</ul>
+<p>Due to holidays and deadlines, this round seminars will be divided into two sessions, Winter 2021 (December 2021) and Spring 2022 (March-May 2022).</p>
+-->
+<h4 id="crossover-aided-biased-walking-on-plateaus">Crossover-Aided Biased Walking on Plateaus</h4>
+<p><a href="https://ctlab.itmo.ru/~mbuzdalov/">Maxim Buzdalov</a>
+May 13th 2022, (9:00-10:00 UTC)</p>
+<p>Many discrete optimization problems feature plateaus, which are hard
+to evolutionary algorithms due to the lack of fitness guidance. While
+higher mutation rates may assist in making a jump from the plateau to
+some better search point, an algorithm is otherwise doomed to perform
+random walks on a plateau, possibly with some assistance from
+diversity mechanisms.</p>
+<p>In this talk, I present a new mechanism that helps escaping from the
+plateau by introducing additional drift towards promising points. It
+has been discovered when analysing why the (1+(λ,λ)) GA with
+standard parameters solves certain instances of the vertex cover
+problem exponentially faster than the (1+1) EA. An intricate interplay
+between the problem structure and the way crossovers are used results
+in a drift towards the points where finding the next improvement is
+much easier. Despite apparent subtlety, this mechanism seems to be
+active on a large fraction of randomly generated vertex cover problem
+instances, which I find surprising and inspiring.</p>
+<h4 id="there-will-be-no-seminar-on-may-6th-2022-due-to-the-dagstuhl-seminar">There will be no seminar on May 6th 2022 due to the Dagstuhl seminar.</h4>
+<h4 id="running-time-analysis-of-the-non-dominated-sorting-genetic-algorithm-ii-nsga-ii-using-binary-or-stochastic-tournament-selection">Running Time Analysis of the Non-dominated Sorting Genetic Algorithm II (NSGA-II) using Binary or Stochastic Tournament Selection</h4>
+<p><a href="http://www.lamda.nju.edu.cn/bianc/">Chao Bian</a> (Nanjing University)
+April 29th 2022, (9:00-10:00 UTC)</p>
+<p>Evolutionary algorithms (EAs) have been widely used to solve multi-objective optimization problems, and have become the most popular tool. However, the theoretical foundation of multi-objective EAs (MOEAs), especially the essential theoretical aspect, i.e., running time analysis, has been still largely underdeveloped. The few existing theoretical works mainly considered simple MOEAs, while the non-dominated sorting genetic algorithm II (NSGA-II), probably the most influential MOEA, has not been analyzed except for a very recent work considering a simplified variant without crossover. In this paper, we present a running time analysis of the standard NSGA-II for solving LOTZ, OneMinMax and COCZ, the three commonly used bi-objective optimization problems. Specifically, we prove that the expected running time (i.e., number of fitness evaluations) is \(O(n^3)\) for LOTZ, and \(O(n^2\log n)\) for OneMinMax and COCZ, which is surprisingly as same as that of the previously analyzed simple MOEAs, GSEMO and SEMO. Next, we introduce a new parent selection strategy, stochastic tournament selection (i.e., \(k\) tournament selection where \(k\) is uniformly sampled at random), to replace the binary tournament selection strategy of NSGA-II, decreasing the required expected running time to \(O(n^2)\) for all the three problems. Experiments are also conducted, suggesting that the derived running time upper bounds are tight for LOTZ, and almost tight for OneMinMax and COCZ.</p>
+<h4 id="benchmarking-evolutionary-computation-methods---whats-in-for-theoreticians">Benchmarking Evolutionary Computation Methods - What&rsquo;s in for Theoreticians?</h4>
+<p><a href="https://webia.lip6.fr/~doerr/">Carola Doerr</a> (Sorbonne Université)
+April 22th 2022, (9:00-10:00 UTC)</p>
+<p>Theory of evolutionary computation (EC) is sometimes criticized for being too much disconnected from the applications on which EC approaches shine. In my opinion, there are two sides to this statement: On the one hand, I do NOT think that the gap between real-world applications of EC methods and the ``sterile'' environments for which we can prove runtime guarantees, black-box complexity statements, etc. should worry us. However, I also believe that we can do better in communicating our insights, and in making our work more accessible (and hence more valuable) for practitioners. In this presentation, I will argue that benchmarking is a powerful tool in this regard. I will also show that benchmarking offers much more, e.g., by providing valuable inspiration for theoretical work.
+Participants interested in this discussion are cordially invited to the Benchmarking@PPSN2022 workshop which has as focus topic the role of benchmarking as mediator between theory and practice: <a href="https://sites.google.com/view/benchmarking-network/home/activities/ppsn-2022-workshop">https://sites.google.com/view/benchmarking-network/home/activities/ppsn-2022-workshop</a></p>
+<h4 id="there-will-be-no-seminar-on-april-15th-2022-due-to-the-public-holiday-in-several-countries">There will be no seminar on April 15th 2022 due to the public holiday in several countries.</h4>
+<h4 id="success-based-population-sizes-for-non-elitist-evolutionary-algorithms">Success-Based Population Sizes for Non-Elitist Evolutionary Algorithms</h4>
+<p><a href="http://staffwww.dcs.shef.ac.uk/people/m.hevia_fajardo/index.html">Mario A. Hevia Fajardo</a> (University of Sheffield)
+April 8th 2022, (9:00-10:00 UTC)</p>
+<p>Success-based parameter control mechanisms are non-static parameter choices for evolutionary algorithms (EAs) that change the parameter values from one generation to the other based on the success (or lack of it) of the previous generation. Despite their simplicity, these mechanisms have been shown to perform as good as or better than static parameter choices. However, most runtime analyses focus on elitist EAs and we are only starting to understand their behaviour when applied to non-elitist EAs.</p>
+<p>In this talk, I will report about recent research on the runtime analysis of success-based mechanisms for non-elitist EAs. More precisely, I will present the results of recent work on the self-adjusting (1, λ) EA, where it was shown to optimise OneMax and Cliff in \(O(n \log n)\). However, this only holds if the success rate \(s\) that governs self-adjustment is small enough. Otherwise, the self-adjusting (1, λ) EA stagnates on an easy slope, where frequent successes drive down the offspring population size. On the other hand, in the absence of easy slopes, the algorithm is able to optimise any function in at most the same asymptotic time as its elitist counterpart independent of the choice of \(s\). I will also explain the useful framework used to prove all the results above.</p>
+<p>(Joint work with Dirk Sudholt)</p>
+<h4 id="first-runtime-analyses-of-competitive-population-based-co-evolutionary-algorithms">First Runtime Analyses of Competitive Population-based Co-Evolutionary Algorithms</h4>
+<p><a href="https://www.cs.bham.ac.uk/~lehrepk/">Per Kristian Lehre</a> (University of Birmingham)
+April 1st 2022, (9:00-10:00 UTC)</p>
+<p>Co-evolutionary algorithms have a wide range of applications, such as
+in hardware design, evolution of strategies for board games, and
+patching software bugs. However, these algorithms are poorly
+understood and applications are often limited by pathological
+behaviour, such as loss of gradient, relative over-generalisation, and
+mediocre objective stasis. It is an open challenge to develop a theory
+that can predict when co-evolutionary algorithms find solutions
+efficiently and reliably.</p>
+<p>This talk describes, to our knowledge for the first time, runtime
+analysis of population-based competitive co-evolutionary
+algorithms. We provide a mathematical framework for describing and
+reasoning about the performance of co-evolutionary processes. An
+example application of the framework shows a scenario where a simple
+co-evolutionary algorithm obtains a solution in polynomial expected
+time. We also describe settings where co-evolutionary algorithms need
+exponential time with overwhelmingly high probability.</p>
+<h4 id="notice-from-march-27th-onwards-we-will-switch-the-time-slot-to-9-10-utc--11-12-european-time--17-18-beijing-time-due-to-the-daylight-saving-time">Notice: From March 27th onwards, we will switch the time slot to 9-10 UTC = 11-12 European time = 17-18 Beijing time due to the daylight saving time.</h4>
+<h4 id="how-do-heuristic-search-algorithms-filter-noise">How do Heuristic Search Algorithms Filter Noise?</h4>
+<p><a href="https://hpi.de/friedrich/people/timo-koetzing.html">Timo Kötzing</a> (Hasso Plattner Institute)
+March 25th 2022, (10:00-11:00 UTC)</p>
+<p>I consider a simple noisy optimization problem: the value of a bit string is its number of 1s plus a random variable drawn from a (centered) Gaussian distribution. It was no surprise to me that simple hill-climbers (like random local search or the 1+1 Evolutionary Algorithm) cannot handle even small noise levels. It was a big surprise to me that some other algorithms (like some estimation of distribution algorithms and crossover-based algorithms) can deal even with big noise effectively. I came to understand this latter phenomenon as essentially the result of averaging over many iterations, and some parameters have to be scaled up in order to deal with higher noise.</p>
+<p>However, even considering these effects, some algorithms were unreasonably effective. In my talk I want to discuss some further findings that seem to indicate that, for example, the compact genetic algorithm can handle Gaussian noise with O(n) variance (which is a lot!) without any scaling of parameters or any other tricks &ndash; just out of the box. This is thanks to sampling widely different individuals a lot of the time, which I will elaborate on in my talk.</p>
+<h4 id="first-runtime-analyses-for-the-nsga-ii">First Runtime Analyses for the NSGA-II</h4>
+<p><a href="http://www.lix.polytechnique.fr/Labo/Benjamin.Doerr/">Benjamin Doerr</a> (École Polytechnique)
+March 18th 2022, (10:00-11:00 UTC)</p>
+<p>In this talk, I will report about recent research on the runtime of the
+NSGA-II multi-objective evolutionary algorithm, more precisely, the
+results just presented at AAAI and those obtained in the time up to the
+talk. The abstract of the former is as follows. This is joint work with
+Weijie Zheng and Yufei Liu.</p>
+<p>The non-dominated sorting genetic algorithm II (NSGA-II) is the most
+intensively used multi-objective evolutionary algorithm (MOEAs) in
+real-world applications. However, in contrast to several simple MOEAs
+analyzed also via mathematical means, no such study exists for the
+NSGA-II so far. In this work, we show that mathematical runtime analyses
+are feasible also for the NSGA-II. As particular results, we prove that
+with a population size larger than the Pareto front size by a constant
+factor, the NSGA-II with two classic mutation operators and three
+different ways to select the parents satisfies the same asymptotic
+runtime guarantees as the SEMO and GSEMO algorithms on the basic
+OneMinMax and LeadingOnesTrailingZeros benchmark functions. However, if
+the population size is only equal to the size of the Pareto front, then
+the NSGA-II cannot efficiently compute the full Pareto front (for an
+exponential number of iterations, the population will always miss a
+constant fraction of the Pareto front). Our experiments confirm the
+above findings.</p>
+<h4 id="simulated-annealing-and-metropolis-algorithm-revisited-in-pseudo-boolean-optimization">Simulated Annealing and Metropolis Algorithm Revisited in Pseudo-Boolean Optimization</h4>
+<p><a href="https://www.imm.dtu.dk/~cawi/">Carsten Witt</a> (Technical University of Denmark)
+December 17th 2021, (10:00-11:00 UTC)</p>
+<p>The Metropolis Algorithm (MA) and its generalization Simulated Annealing belong to the oldest randomized search heuristics known. Runtime analyses of MA and SA date back to the 1980s and 1990s; however, there are only few recent results on their runtime behavior. We revisit
+classical runtime analyses of MA and SA by Wegener (2005) and Jansen and Wegener (2007) and prove partially stronger results using state-of-the-art methods for the analysis. Moreover, we investigate MA on a generalized cliff function, where both the location of the cliff point
+and the fitness decline after the cliff can be adjusted, and prove different regimes of runtimes.</p>
+<p>(Joint work with with Benjamin Doerr, Taha El Ghazi and Amirhossein Rajabi)</p>
+<h4 id="on-runtime-of-non-elitist-evolutionary-algorithms-optimizing-fitness-functions-with-plateaus">On runtime of non-elitist evolutionary algorithms optimizing fitness functions with plateaus</h4>
+<p><a href="http://iitam.omsk.net.ru/~eremeev/index_e.htm">Anton Eremeev</a> (Sobolev Institute of Mathematics)
+December 10th 2021, (10:00-11:00 UTC)</p>
+<p>We consider the expected runtime of evolutionary algorithms (EAs) without elite individuals, based on the bitwise mutation, when they are applied to optimize fitness functions with plateaus of constant fitness. To this end, we consider two types of fitness functions: the Plateau_k function with a plateau of second-best fitness in a ball of radius k around the unique optimum, and the Royal Road function. For the Plateau_k function, we obtain polynomial upper bounds on the expected runtime for some modes of non-elitist EAs based on an unbiased mutation, in particular, the bitwise mutation. This is shown using the level-based theorems. We also note that the EA with fitness-proportionate selection is inefficient for this function, if the bitwise mutation is used with the standard settings of mutation probability. For the Royal Road function, we obtain lower and  upper bounds on the expected runtime, which generalize the previously known bounds for the OneMax function.</p>
+<h4 id="a-simple-proof-of-the-general-omegan-log-n-lower-bound-for-mutation-based-evolutionary-algorithms">A simple proof of the general \(\Omega(n \log n)\) lower bound for mutation-based evolutionary algorithms</h4>
+<p><a href="https://www.cs.bham.ac.uk/~jer/">Jonathan Rowe</a> (University of Birmingham)
+December 3rd 2021, (10:00-11:00 UTC)</p>
+<p>A recent paper by Lehre and Sudholt proved general lower bounds for mutation-based algorithms which use unbiased unary mutation operators. In the special case where mutation is performed bitwise according to some mutation rate, we show that a similar result can be proved rather easily. The emphasis of the Lehre and Sudholt paper is on the effect of the population size, whereas our result shows the effect of the mutation rate. In particular, small mutation rates can lead to stronger lower bounds.</p>
+
+    
 <h3 id="seminars-spring-2021">Seminars Spring 2021</h3>
 <p>These seminars were organised by Benjamin Doerr (École Polytechnique) and Per Kristian Lehre (University of Birmingham).</p>
 <h4 id="july-1st-representing-fitness-landscapes-by-valued-constraints-to-understand-open-ended-evolution">Representing fitness landscapes by valued constraints to understand open-ended evolution</h4>
