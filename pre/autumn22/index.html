@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        ThRaSH Seminars
+    </title>
+    <!-- Next line is for the nice mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../thrash.css">
+</head>
+<body>
+
+    <nav class="nav-container">
+        <div class="nav-menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="https://thrash-seminars.github.io/pre/">Previous</a></li>
+                <li class="menu-item"><a href="https://thrash-seminars.github.io/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main">
+        <h2>ThRaSH Seminars &ndash; Autumn 2022</h2>
+      
+        <h3 id="about">About ThRaSH</h3>
+        <p>Randomized search heuristics such as stochastic gradient methods, simulated annealing, evolutionary algorithms, stochastic neural networks for optimization, ant colony and swarm optimization, and the cross-entropy method are frequently used across many scientific communities. They have been successfully applied in various domains, both for combinatorial and numerical optimization. Despite their success in practice, proving that such algorithms satisfy certain performance guarantees is still a difficult and widely open problem.</p>
+        <p>The mission of the theory of randomized search heuristics (ThRaSH) seminar series is to contribute to the theoretical understanding of randomized search heuristics, in particular of their computational complexity. The aim is to stimulate interactions within the research field and between people from different disciplines working on randomized algorithms. The primary focus is on discussing recent ideas and detecting challenging topics for future work, rather than on the presentation of final results.</p>
+        <p>Steering Committee (Alphabetic order)</p>
+        <ul>
+        <li><a href="http://www.lix.polytechnique.fr/Labo/Benjamin.Doerr/">Benjamin Doerr</a> (École Polytechnique)</li>
+        <li><a href="https://users.aber.ac.uk/thj10/">Thomas Jansen</a> (Aberystwyth University)</li>
+        <li><a href="https://hpi.de/friedrich/people/timo-koetzing.html">Timo K&ouml;tzing</a> (Hasso Plattner Institute)</li>
+        <li><a href="https://www.cs.bham.ac.uk/~lehrepk/">Per Kristian Lehre</a> (University of Birmingham)</li>
+        <li><a href="http://staffwww.dcs.shef.ac.uk/people/P.Oliveto/">Pietro S. Oliveto</a> (University of Sheffield)</li>
+        <li><a href="https://www.imm.dtu.dk/~cawi/">Carsten Witt</a> (Technical University of Denmark)</li>
+        </ul>
+
+        <h3>Seminar Mailing List</h3>
+        <p> If you would like to receive information about the ThRaSH seminars, please subscribe to our mailing list hosted by Jisc:  <a href="http://jiscmail.ac.uk/THRASH-SEMINARS">http://jiscmail.ac.uk/THRASH-SEMINARS</a></p>
+
+
+        <h3>Seminars Autumn 2022</h3>
+
+        <p>Organizers:</p>
+        <ul>
+        <li><a href="https://d.umn.edu/~amsutton">Andrew M. Sutton</a> (University of Minnesota Duluth)</li>
+        <li><a href="https://www.aber.ac.uk/en/cs/staff-profiles/listing/profile/chz8/">Christine Zarges</a> (Aberystwyth University)</li>
+        </ul>
+        <p>Zoom link for all talks:</p>
+        <ul>
+        <li><a href="https://umn.zoom.us/j/99884680424?pwd=QXFNVWNNMWROU01yKzVSSDY2ZjQ3Zz09">https://umn.zoom.us/j/99884680424?pwd=QXFNVWNNMWROU01yKzVSSDY2ZjQ3Zz09</a></li>
+        </ul>
+
+        The seminar will take place on Thursdays:
+        <ul>
+        <li> Thursdays, 12:00-13:00 UTC+1 in October: <a href="https://everytimezone.com/s/c6c30f73">https://everytimezone.com/s/c6c30f73</a></li>
+        <li> Thursdays, 12:00-13:00 UTC in November/December: <a href="https://everytimezone.com/s/c9b9da64">https://everytimezone.com/s/c9b9da64</a></li>
+        </ul>
+
+        <!-- <p><b>There are currently plenty of open slots for talks! If you would like to give a talk, please contact the organizers.</b></p> -->
+
+        <div class="Divider"></div>
+
+        <h4>Schedule</h4>
+        <dl>
+        <dt><strong>20 October 2022 (12:00-13:00 UTC+1)</strong></dt>
+        <dd><p><i>The Right Mutation Operator for Permutation Problems</i> &mdash; <a href="http://www.lix.polytechnique.fr/Labo/Benjamin.Doerr/">Benjamin Doerr</a>
+            (Ecole Polytechnique, France)</p>
+        <p>There is little discussion what is the generic mutation operator
+        for bit-string representations. In contrast, for permutation-based
+        problems several natural operators exist and there is little general
+        advice which one to prefer. In this talk, I will discuss a recent
+        runtime analysis approach to this question. While it does not give the
+        ultimate answer, we conclude from various runtime results that the
+        scramble operator has some clear advantages over swap-based operators
+        and that a heavy-tailed mutation strength is preferable over the more
+        common Poisson-distributed mutation strength.
+        </p>
+        </dd>
+
+        <dl>
+        <dt><strong>27 October 2022 (12:00-13:00 UTC+1)</strong></dt>
+        <dd><p><i>Mutation Operators for Cardinality-Constrained Ising Models</i> &mdash; <a href="https://www.fim.uni-passau.de/intelligent-systems/lehrstuhlteam/personendetails?target=79055&module=TemplatePersondetails&config_id=a8d16e612076595e5b55aa227262539d&range_id=acc511e56743708cda6abb3e0f582535&username=dang04&group_id=">Duc-Cuong Dang</a>
+            (Universit&#228;t Passau)</p>
+            <p>
+        The Ising model is a famous model of ferromagnetism, in which
+        atoms can have one of two spins and atoms that are neighbours prefer to have the same spin. In this talk, I will discuss the performance of evolutionary algorithms on a variant of the Ising model in which the number of atoms with a specific spin is fixed. These cardinality constraints are motivated by problems in materials science, specifically in the studies of alloys.
+                                                
+        We consider the grey-box setting where the mutation operators maintain the feasibility of solutions by swapping atoms of different spins. On a one-dimensional ring, we prove that randomised local search with a naive swap operator needs \(\Theta(n^4)\) expected time in the worst case to find an optimal configuration. This time is drastically reduced by using more sophisticated operators that identify boundary atoms and/or that swap clusters of atoms. We show that the most effective operator only requires \(O(n)\) iterations to find an optimal configuration.
+        </p>
+        </dd>
+
+        <dt><strong>10 November 2022, (12:00-13:00 UTC)</strong></dt>
+        <dd> <p> <i>Runtime Analysis of a Co-Evolutionary Algorithm: Overcoming Negative Drift in Maximin-Optimisation</i>
+        &mdash; <a href="https://staffwww.dcs.shef.ac.uk/people/M.Hevia_Fajardo/">Mario Hevia Fajardo</a> (University of Birmingham, UK)
+        </p>
+        <p>
+            Co-evolutionary algorithms are simple general-purpose optimisers
+        used to solve complex problems for which no objective function for
+        evaluating potential solutions is present or known. Instead, a payoff
+        function is used, such that the objective value of a solution depends
+        on actions of some adversary or adversaries. These algorithms use one
+        or more populations of solutions that mimic natural co-evolution of
+        species by iteratively applying evolutionary operators such as
+        mutation, recombination, and selection to improve the current
+        solutions.  Because of the complex interactions that arise between the
+        populations of solutions, these algorithms are poorly understood, and
+        applications are often limited by pathological behaviour, such as loss
+        of gradient and cyclic non-convergent behaviour.
+        </p>
+
+        <p>
+        It is an open challenge to develop a theory that can predict when co-evolutionary algorithms find solutions efficiently and reliably. This
+        talk describes time-complexity analyses that have provided a better understanding of how co-evolutionary algorithms behave throughout the
+        optimisation.
+        </p>
+        </dd>
+
+        <dt><strong>17 November 2022, (12:00-13:00 UTC)</strong></dt>
+        <dd> <p> <i>Two-Dimensional Multiplicative Drift</i>
+        &mdash; <a href="https://as.inf.ethz.ch/people/members/lenglerj/index.html">Johannes
+        Lengler</a> (ETH Z&#252;rich, Switzerland)
+        </p>
+            <p>
+        In our standard drift theorems, we have one random variable \(X = X^t\),
+        and we derive bounds on the hitting time of zero (or a different
+        target) from the drift \(E[X^t - X^{t+1} | X^t]\). In this talk, I will
+        discuss the case that we have two random variables \(X_1\) and \(X_2\) which
+        influence each other. More precisely, I will discuss the
+        multiplicative (or linear) case, where the drift is a linear function
+        of \(X_1\) and \(X_2\). So there are constants \(a,b,c,d\) such that the drift of
+        \(X_1\) is \(aX_1 + bX_2\), and the drift of \(X_2\) is \(cX_1 + d X_2\), possibly
+        with some lower order noise terms. I will explain that the most
+        interesting case is when each of \(X_1\) and \(X_2\) contribute positively to
+        its own drift towards the target, but contribute negatively to the
+        drift of each other. In this case, the behaviour is governed by the
+        sign of the eigenvalues of the matrix \(A = (a b\) \\ \(c d)\).
+            </p>
+        </dd>
+        
+        <dt><strong>24 November 2022, (12:00-13:00 UTC)</strong></dt>
+        <dd> <p> <i>Runtime Analysis for the NSGA-II: Proving, Quantifying, and Explaining the Inefficiency For Three or More Objectives</i> &mdash; <a href="https://zhengwj13.github.io">Weijie Zheng</a> (Harbin
+        Institute of Technology, Shenzhen)
+        </p>
+        <p>
+            The NSGA-II is one of the most prominent algorithms to solve
+        multi-objective optimization problems. Despite numerous successful
+        applications and, very recently, also competitive mathematical
+        performance guarantees, several studies have shown that the NSGA-II is
+        less effective for larger numbers of objectives. In this work, we use
+        mathematical runtime analyses to rigorously prove and quantify this
+        phenomenon. We show that even on the simple OneMinMax benchmark, where
+        every solution is Pareto optimal, the NSGA-II also with large
+        population sizes cannot compute the full Pareto front (objective
+        vectors of all Pareto optima) in sub-exponential time. Our proofs
+        suggest that the reason for this unexpected behavior lies in the fact
+        that in the computation of the crowding distance, the different
+        objectives are regarded independently. This is not a problem for two
+        objectives, where any sorting of a pair-wise incomparable set of
+        solutions according to one objective is also such a sorting according
+        to the other objective (in the inverse order).
+        </p>
+        <p>
+        (Joint work with Benjamin Doerr)
+        </p>   
+        </dd>
+
+        <dt><strong>1 December 2022, (12:00-13:00 UTC)</strong></dt>
+        <dd> <p> <i> How does Problem Separability Impact the Co-operative Co-evolutionary (1+1) EA?</i> &mdash; Shishen Lin (University of Birmingham, UK)
+        </p>
+
+        <p>
+            Real-world optimisation problems are increasingly large-scale
+        optimisation (LSO) problems. To solve an LSO more efficiently using
+        evolutionary methods, and cooperative coevolution in which more than
+        two populations get involved and combine the idea of divide and
+        conquer has been introduced. </p>
+
+        <p>However, the behaviour of cooperative coevolutionary algorithms is not fully understood because of the interactions between two or
+        more populations, making analysis more challenging. Runtime analysis has improved
+        the understanding of traditional EAs. We argue that such a study of co-evolutionary algorithms could provide useful insights, e.g.,
+        how their expected optimisation time depends on algorithmic design decisions.</p>
+
+        <p>Here, we continue the development of runtime analysis of co-evolutionary algorithms. By solving an open conjecture proposed by Jansen
+        and Wiegand, we show that the expected optimisation time of the basic cooperative co-evolutionary (1+1) EA (CC-(1+1) EA) on linear
+        functions is \(\Theta(n \log n)\). We also show how the algorithm behaves on an even broader class of functions. Moreover, empirical analysis
+        is conducted on two more complicated problems: NK-Landscape and k-Maxsat problems. Our results show that the CC-(1+1) EA perform
+        similarly to the (1+1) EA in general, however, by adjusting block length, we can still optimise its performance of it on NK-Landscape
+        problem. We expect that our result can provide a more precise expected runtime of CC-(1+1) EA and its behaviour of it on more
+        complicated inseparable problems.
+            </p>
+        </dd>
+    </div>
+</body>
