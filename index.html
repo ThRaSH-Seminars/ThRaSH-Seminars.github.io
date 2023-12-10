@@ -43,6 +43,7 @@
             <li><a href="#Nov28"><b>28 Nov:</b> Maxim Buzdalov, <i>Biased Continuous Algorithms: How to Take Them to the Grave?</i></a></li>
             <li><a href="#Dec5"><b>5 Dec:</b> Duc Cuong Dang, <i>Analysing the Robustness of NSGA-II under Noise</i></a></li>
             <li><a href="#Dec12"><b>12 Dec:</b> Chao Qian, <i>Stochastic Population Update Can Provably Be Helpful in Multi-Objective Evolutionary Algorithms</i></a></li>
+            <li><a href="#Dec19"><b>19 Dec:</b> Mingfeng Li, <i>How to Use the Metropolis Algorithm for Multi-Objective Optimization?</i></a></li>
         </ul>
 
         <h2>Abstracts of the talks</h2>
@@ -141,6 +142,24 @@
                 <p>Evolutionary algorithms (EAs) have been widely and successfully applied to solve multi-objective optimization problems, due to their nature of population-based search. Population update is a key component in multi-objective EAs (MOEAs), and it is performed in a greedy, deterministic manner. That is, the next-generation population is formed by selecting the first population-size ranked solutions (based on some selection criteria, e.g., non-dominated sorting, crowdedness and indicators) from the collections of the current population and newly-generated solutions. In this work, we question this practice. We analytically present that introducing randomness into the population update procedure in MOEAs can be beneficial for the search. More specifically, we prove that the expected running time of two well-established MOEAs, SMS-EMOA (2009 citations in Google Scholar) and NSGA-II (47549 citations in Google Scholar), for solving two biobjective problems, OneJumpZeroJump (introduced by [Doerr and Zheng, AAAI’21]) and bi-objective RealRoyalroad (introduced by [Dang et al., AAAI’23]), can be exponentially decreased if replacing its deterministic population update mechanism by a stochastic one. Empirical studies also verify the effectiveness of stochastic population update. This work is an attempt to challenge a common practice for the population update in MOEAs. Its positive results, which might hold more generally, should encourage the exploration of developing new MOEAs in the area.</p>
  
                 <p>This work significantly extends our preliminary work published at IJCAI’23, which only considers SMS-EMOA solving the OneJumpZeroJump problem. In this version, we consider SMS-EMOA and NSGA-II solving the OneJumpZeroJump and bi-objective RealRoyalroad problems, providing more evidence for the effectiveness of stochastic population update.</p>
+            </dd>
+        </dl>
+
+        <dl id="Dec19">
+            <dt><strong>19 December 2023</strong></dt>
+                
+            <dd>
+                <p><i>How to Use the Metropolis Algorithm for Multi-Objective Optimization?</i> &mdash; Mingfeng Li, Harbin Institute of Technology, Shenzhen, China</p>
+                
+                <p> The Metropolis algorithm can cope with local optima by accepting inferior solutions with suitable small probability. That this can work well was not only observed in empirical research, but also via mathematical runtime analyses on single-objective benchmarks. This paper takes several steps towards understanding, again via theoretical means, whether such advantages can also be obtained in multi-objective optimization.</p>
+
+                <p>The original Metropolis algorithm has two components, one-bit mutation and the acceptance strategy which allows accepting inferior solutions. When adjusting the acceptance strategy to multi-objective optimization in the way that an inferior solution that is accepted replaces its parent, then the Metropolis algorithm is not very efficient on our multi-objective version of the multimodal DLB benchmark called DLTB. With one-bit mutation, this multi-objective Metropolis algorithm cannot optimize the DLTB problem, with standard bit-wise mutation it needs at least &Omega;(n<sup>5</sup>) time to cover the full Pareto front. We also show that many other multi-objective optimizers, namely the GSEMO, SMS-EMOA, and NSGA-II, only need time O(n<sup>4</sup>).</p>
+
+                <p>When keeping the parent when an inferior point is accepted, the multi-objective Metropolis algorithm both with one-bit or standard bit-wise mutation solves the DLTB problem efficiently, with one-bit mutation experimentally leading to better results than several other algorithms.</p>
+
+                <p>Overall, our work suggests that the general mechanism of the Metropolis algorithm can be interesting in multi-objective optimization, but that the implementation details can have a huge impact on the performance.</p>
+
+                <p>This is a joint work with Renzhong Deng, Benjamin Doerr, and Weijie Zheng. </p>
             </dd>
         </dl>
     </div>
