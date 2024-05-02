@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        ThRaSH Seminars
+    </title>
+    <!-- Next line is for the nice mobile view -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../thrash.css">
+</head>
+<body>
+
+    <nav class="nav-container">
+        <div class="nav-menu">
+            <ul class="menu-list">
+                <li class="menu-item"><a href="https://thrash-seminars.github.io/pre/">Previous</a></li>
+                <li class="menu-item"><a href="https://thrash-seminars.github.io/">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="main">
+
+        <h3 id="seminars-spring-2021">Seminars Autumn 2020</h3>
+
+        <p>These seminars were organised by Timo K&ouml;tzing  (Hasso Plattner Institute) and Carsten Witt (Technical University of Denmark).</p>
+
+        <dl>
+            <dt><strong>Exponential Upper Bounds</strong></dt>
+            <dd>
+                <p>Speaker: Benjamin Doerr, Ecole Polytechnique, France October 9, 2020</p> 
+                <p>Throughout the (young) history of runtime analysis of evolutionary algorithms (EAs), exponential lower bounds have been used to argue that a certain algorithm is not suited for a certain task, and this was generally seen as the end of this story. In this talk, I argue that there are at least two reasons to not stop thinking here. One is the general recent trend in classic algorithmics to also study exponential-time algorithms (for various reasons). The other is that an exponential lower bound still leaves open the basic question what is the runtime in this case. It could be much higher than exponential, and indeed, runtimes like \( n^{\Theta(n)} \) have been observed with standard EAs as well. There is some progress on the second point: Via a simple hope-for-extreme-luck argument, I easily prove several exponential upper bounds, many of them matching well-known lower bounds. As one particular result, I show that any of the algorithms randomized local search, Metropolis algorithm, simulated annealing, and (1+1) evolutionary algorithm can optimize any pseudo-Boolean weakly monotonic function under a large set of noise assumptions in a runtime that is at most exponential. This extends a previous result, limited to the (1+1) EA, the LeadingOnes function, and one-bit or bit-wise prior noise with noise probability at most \( 1/2\). Unfortunately, all these bounds are not yet of the type \(C^n\) for a constant C &lt; 2, and thus they are not yet interesting in the perspective of classic algorithms. This is clearly an interesting problem for future work. The hope-for-extreme-luck argument so far seems to work mostly for (1+1)-type algorithms. Already for the \( (1+\lambda)\) EA, some technical difficulties arise. Overcoming these (or proving super-exponential bounds) is a second problem we have to leave open. A preliminary version of these results was presented at PPSN 2020. The full paper can be found on the arxiv preprint server.</p> 
+                <p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-doerr-2020-10-09.pdf">slides</a></p> </dd>
+        </dl>
+        <dl>
+            <dt><strong>Web-survey on the analysis of randomized search heuristics</strong></dt>
+            <dd>
+                <p>Timo Koetzing, Hasso Plattner Institute Potsdam, Germany October 16, 2020</p> 
+                <p>Presentation of ongoing work to establish a web survey covering the most important concepts in the theoretical analysis of randomized search heuristics, followed by discussion in break-out groups</p> </dd>
+        </dl>
+        <dl>
+            <dt><strong>Exponential Upper Bounds via Drift Analysis</strong></dt>
+            <dd>
+                <p>Carsten Witt, Technical University of Denmark October 23, 2020</p> 
+                <p>Drift analysis is a key tool for the runtime analysis of randomized search heuristics. Usually, it is used to translate information on the expected one-step progress of the underlying stochastic process, the so-called drift towards the optimum, into a statement on the expected optimization time of the search heuristic. However, drift analysis is more versatile. In the talk, I will discuss the use of potential functions in drift theorems to bound the optimization time in scenarios where the process does not have a drift towards the optimum. This results in exponential upper bounds on the expected optimization time. Moreover, I would like to discuss how this approach compares with the recent technique by Doerr (PPSN 2020) that derives exponential upper bounds based on lucky sequences of improving steps.</p> 
+                <p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Witt-2020-10-23.pdf">slides</a></p> </dd>
+        </dl>
+        <dl>
+            <dt><strong>Time-flexible Drift Theorems</strong></dt>
+            <dd>
+                <p>Martin Krejca, Hasso Plattner Institute Potsdam, Germany October 30, 2020</p> 
+                <p>Drift theory is a collection of theorems that bound the expected stopping time of time-discrete random processes over the reals that have a consistent bias &ndash; the drift &ndash; in decreasing in expectation in each step. The beauty of drift theory stems from translating a bound for the drift immediately into a bound for the expected stopping time. In other words, local information about the one-step change of the process is turned into global information about the behavior of the entire process. However, a downside of drift theory is that the application of a drift theorem is usually preceded by defining a useful potential function that transform the random process into one that has the desired drift. This step is not straightforward.</p> 
+                <p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-krejca-2020-10-30.pdf">slides</a></p> </dd>
+        </dl>
+        <dl>
+            <dt><strong>Social gathering</strong></dt>
+            <dd>
+                <p>November 4, 2020</p> </dd>
+        </dl>
+        <dl>
+            <dt><strong>Self-Adjusting Evolutionary Algorithms for Multimodal Optimization</strong></dt>
+            <dd>
+                <p>Amirhossein Rajabi, Technical University of Denmark November 13, 2020</p> 
+                <p>Recent theoretical research has shown that self-adjusting and self-adaptive mechanisms can provably outperform static settings in evolutionary algorithms for binary search spaces. However, the vast majority of these studies focuses on unimodal functions which do not require the algorithm to flip several bits simultaneously to make progress. In fact, common self-adjusting algorithms are not designed to detect local optima and do not have any obvious benefit to cross large Hamming gaps. A mechanism called stagnation detection is suggested, which can be added as a module to existing evolutionary algorithms. Added to a simple (1+1) EA and RLS, we proved an efficient expected runtime on leaving local optima without changing the behaviour of the algorithm on unimodal functions.</p> 
+                <p><a href="https://www.cs.bham.ac.uk/~lehrepk/thrash2021/static/slides/Talk-rajabi-2020-11-13.pdf">slides</a></p></dd>
+        </dl>
+
+    
+
+
+  
+    </div>
+</body>
