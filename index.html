@@ -22,7 +22,7 @@
     <div class="main">
         <h1>ThRaSH Seminars Series, Spring 2024</h1>
 
-        <p><b>When?</b> On Mondays at 14:00 CEST (12:00 UTC), starting from May 13; however,  no talk on May 20</p>
+        <p><b>When?</b> On Mondays at 14:00 CEST (12:00 UTC), starting from May 13 and ending on June 24; however, no talk on May 20</p>
 
         <p><b>Where?</b> Here is a <a href="https://dtudk.zoom.us/j/65818691920?pwd=cGY1aWsraXZXUHRtVEpJc3Vicy92dz09">permanent zoom link</a>.</p>
 
@@ -35,7 +35,7 @@
         <!--<p>All seminars will be added to <a href="https://calendar.google.com/calendar/embed?src=00ae99cd98c6cb6e82b2594b37d22900dd8f8c441a587bb45bb87be550a6c8c7%40group.calendar.google.com" target="_blank">this google calendar</a> (the times are displayed in CE(S)T). To subscribe to this calendar, <a href="https://calendar.google.com/calendar/u/0?cid=MDBhZTk5Y2Q5OGM2Y2I2ZTgyYjI1OTRiMzdkMjI5MDBkZDhmOGM0NDFhNTg3YmI0NWJiODdiZTU1MGE2YzhjN0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">use this link</a>.</p>-->
 
         <ul>
-            <li><a href="#May13"><b>13 May:</b> Speaker, <i>Title</i></a></li>
+            <li><a href="#May13"><b>13 May:</b>Dirk Sudholt, <i>Evolutionary Computation Meets Graph Drawing: Runtime Analysis for Crossing Minimisation on Layered Graph Drawings </i></a></li>
         </ul>
 
         <h2>Abstracts of the talks</h2>
@@ -44,9 +44,21 @@
             <dt><strong>13 May 2024</strong></dt>
                 
             <dd>
-                <p><i>Title</i> &mdash; <a href="https://www.domain.tld">Speaker</a>, Affiliation, Country</p>
+                <p><i>Evolutionary Computation Meets Graph Drawing: Runtime Analysis for Crossing Minimisation on Layered Graph Drawings </i> &mdash; <a href="https://www.fim.uni-passau.de/en/intelligent-systems/team/staff-details?config_id=b51b5dfe903a2b0768b4f3f1ffb59932&group_id=&module=TemplatePersondetails&range_id=acc511e56743708cda6abb3e0f582535&username=sudhol01&cHash=5621b2c1cc61a253b310949446c2de47">Dirk Sudholt</a>, University of Passau, Germany</p>
 
-                <p>Abstract</p>
+                <p>
+                    Graph Drawing aims to make graphs visually comprehensible while faithfully representing their structure. In layered drawings, each vertex is drawn on a horizontal line and
+                    edges are drawn as <i>y</i>-monotone curves. A key ingredient for constructing such drawings is the One-Sided Bipartite Crossing Minimization (OBCM) problem:
+                    given two layers of a bipartite graph and a fixed horizontal order of vertices on the first layer, the task is to order the vertices on the second layer to minimise the
+                    number of edge crossings. We analyse the performance of simple evolutionary algorithms for OBCM and compare different operators for permutations: exchanging two
+                    elements, swapping adjacent elements and jumping an element to a new position. We show that the simplest and cheapest
+                    mutation operator, swap, shows excellent performance on instances that can be drawn crossing-free, which correspond to a generalised sorting problem. We give a tight
+                    runtime bound of <i>&Theta;(n<sup>2</sup>)</i> via a parallel BubbleSort algorithm and a delay sequence argument. This gives a positive answer to an open problem from
+                    Scharnow, Tinnefeld, and Wegener (2004) on whether the best known bound of <i>O(n<sup>2</sup> \og n)</i> for sorting in permutation spaces can be improved to
+                    <i>&Theta;(n<sup>2</sup>)</i>, albeit for an even simpler operator.
+
+                    
+                </p>
             </dd>
         </dl>
 
