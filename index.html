@@ -78,23 +78,24 @@
     helps in theoretical benchmarks. However, there is one obstacle: The
     effectiveness of crossover depends on the population diversity (e.g.,
     measured by average Hamming distance of the solutions), so we need to
-    understand how the diversity of a population evolves over time.
+    understand how the diversity of a population evolves over time.</p>
 
-    We answer this question under a seemingly very strong assumption: for a
+    <p>    We answer this question under a seemingly very strong assumption: for a
     flat objective function, i.e., in absence of fitness signals. We show that
     in this case, surprisingly, the details of algorithm have almost no
-    influence on the diversity. Specifically, for the (\mu+1) Genetic Algorithm
+    influence on the diversity. Specifically, for the (&mu;+1) Genetic Algorithm
     we show that diversity approaches an equilibrium which (almost) does not
     depend on the used mutation or crossover operators. The equilibrium point
     increases linearly with the population size.
-
+</p>
+                <p>
     Although flat objective functions are seemingly uninteresting, the result
     turned out to be surprisingly useful. I will give one application: for
     Jump, a standard benchmark for local optima, the runtime of the (&mu;+1) GA
     with a small modification is reduced massively by crossover, because the
     natural diversity in this range is large enough to speed up optimization.
-
-                </p>
+    </p>
+                
             </dd>
         </dl>
     </div>
