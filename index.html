@@ -38,7 +38,7 @@
             <li><a href="#May13"><b>13 May: </b>Dirk Sudholt, <i>Evolutionary Computation Meets Graph Drawing: Runtime Analysis for Crossing Minimisation on Layered Graph Drawings </i></a></li>
             <li><a href="#May27"><b>27 May: </b>Johannes Lengler, <i>Population Diversity in Fitness-Neutral Landscapes</i></a></li>
             <li><a href="#June3"><b>3 June</b></a>: CANCELLED</li>
-            <li><a href="#June10"><b>10 June</b>: Denis Antipov, <i>TBA</i></a></li>
+            <li><a href="#June10"><b>10 June</b>: Denis Antipov, <i>Reconstructing a true individual from a noisy one: a new perspective gives new insights</i></a></li>
             <li><a href="#June17"><b>17 June</b></a>: TBA</li>
             <li><a href="#June24"><b>24 June</b>: Chao Qian, <i>TBA</i></a></li>
             </ul>
@@ -100,6 +100,20 @@
  </dl>
 
 
+            <dl id="June10">
+                <dt><strong>June 10</strong></dt>
+                <p><i></i>Reconstructing a true individual from a noisy one: a new perspective gives new insights</i>&mdash; <a href="https://researchers.adelaide.edu.au/profile/denis.antipov">Denis Antipov, The University of Adelaide, Australia</a></p>
+                <p>
+                    EAs are often used to solve problems in uncertain environments, e.g., for optimization of dynamic functions or functions with stochastic noise. They have been shown to be effective in such circumstances, however the theoretical understanding of why they are robust is very limited. In this talk, we focus on the prior noise, that is, when the individuals might be randomly changed before we evaluate their fitness. The previous works which considered this setting showed that the (1 + 1) EA can withstand only low rates of noise, while population-based EAs seem to be quite robust even to a strong noise. However, the analysis of EAs on the noise is often tailored to the considered problems, which is caused by its complexity: even the elitist algorithms which are usually 
+                    described by simple stochastic processes might adopt a much more complex non-elitist behavior.
+
+                In this talk, we describe a new method of analysis for prior noise problems. It is based on the observation that 
+                    when we know both the parent and its offspring affected by the noise, we can estimate the distribution of the true noiseless offspring as
+                    if it was created via crossover between the parent and the noisy offspring. With this perspective, we show that the (1 + &lambda;) EA and the (1, &lambda;)
+                    EA with only a logarithmic population size are very robust even to constant-rate noise (the one which affects a constant fraction of all fitness evaluations): 
+                    they can solve noisy OneMax in O(n log(n)) fitness evaluations, which is the same as in the noiseless case.
+                </p>
+            </dl>
             <dl id="June24">
             <dt><strong>24 June 2024</strong></dt>
 
