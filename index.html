@@ -37,9 +37,9 @@
         <ul>
             <li><a href="#May13"><b>13 May: </b>Dirk Sudholt, <i>Evolutionary Computation Meets Graph Drawing: Runtime Analysis for Crossing Minimisation on Layered Graph Drawings </i></a></li>
             <li><a href="#May27"><b>27 May: </b>Johannes Lengler, <i>Population Diversity in Fitness-Neutral Landscapes</i></a></li>
-            <li><a href="#June3"><b>3 June</b></a>: CANCELLED</li>
-            <li><a href="#June10"><b>10 June</b>: Denis Antipov, <i>Reconstructing a true individual from a noisy one: a new perspective gives new insights</i></a></li>
-            <li><a href="#June17"><b>17 June</b></a>: TBA</li>
+            <li><a href="#June3"><b>3 June: </b></a>CANCELLED</li>
+            <li><a href="#June10"><b>10 June: </b>Denis Antipov, <i>Reconstructing a true individual from a noisy one: a new perspective gives new insights</i></a></li>
+            <li><a href="#June17"><b>17 June: </b>Martin Krejca, <i></i>A Flexible Evolutionary Algorithm With Dynamic Mutation Rate Archive</i></a>:</li>
             <li><a href="#June24"><b>24 June</b>: Chao Qian, <i>TBA</i></a></li>
             </ul>
 
@@ -116,6 +116,25 @@
                 </p>
                 </dd>
             </dl>
+            <dl id="June17">
+                <dt><strong>17 June 2024</strong></dt>
+                <dd><p><i>A Flexible Evolutionary Algorithm With Dynamic Mutation Rate Archive</i>&mdash; <a href="https://www.lix.polytechnique.fr/Labo/Martin.KREJCA">Martin Krejca, Ecole Polytechnique, France</a></p>
+                <p>
+                    We propose a new, flexible approach for dynamically maintaining successful mutation rates in evolutionary algorithms using k-bit flip mutations. 
+                    The algorithm adds successful mutation rates to an archive of promising rates that are favored in subsequent steps. Rates expire
+                    when their number of unsuccessful trials has exceeded a threshold, while rates currently not present in the archive can enter it in 
+                    two ways: (i) via user-defined minimum selection probabilities for rates combined with a 
+                    successful step or (ii) via a stagnation detection mechanism increasing the value for a promising rate after the current bit-flip
+                    neighborhood has been explored with high probability.
+                    For the minimum selection probabilities, we suggest different options, including heavy-tailed distributions. We 
+                    conduct rigorous runtime analysis of the flexible evolutionary algorithm on the OneMax and Jump functions, on general
+                    unimodal functions, on minimum spanning and on a class of hurdle-like functions with varying hurdle width that benefit particularly from the 
+                    archive of promising mutation rates. In all cases, the runtime bounds are close to or even outperform the best known
+                    results for both stagnation detection and heavy-tailed mutations. 
+                </p><p>(joint work with Carsten Witt</p>
+                </dd>
+            </dl>
+
             <dl id="June24">
             <dt><strong>24 June 2024</strong></dt>
 
