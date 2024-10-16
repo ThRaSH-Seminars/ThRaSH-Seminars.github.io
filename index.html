@@ -67,7 +67,8 @@
                     multi-objective EAs (MOEAs), particularly the fundamental aspects like running time analysis, remains largely underexplored. Existing theoretical studies mainly 
                     focus on basic MOEAs, with little attention given to practical MOEAs. Recently, researchers have begun to examine practical MOEAs, 
                     e.g., NSGA-II/III, MOEA/D, and SMS-EMOA. However, the running time analysis of Strength Pareto Evolutionary Algorithm 2 (SPEA2), one of the most popular MOEAs, has not been touched.
-
+                </p>
+                <p>
                     In this talk, we will present the first theoretical analysis of the running time for SPEA2 on three commonly studied multi-objective optimization problems: $m$OneMinMax, $m$LeadingOnesTrailingZeroes, 
                     and $m$-OneJumpZeroJump. We show that SPEA2 achieves expected running times of $O(\mu n\cdot \min{m\log n, n})$, $O(\mu n^2)$, and $O(\mu n^k \cdot \min{mn, 3^{m/2}})$ for these 
                     problems respectively, where $m$ is the number of objectives, and $\mu$ is the population size. The proofs are accomplished through general theorems which are also applicable for analyzing the expected 
@@ -75,39 +76,34 @@
                     
                 </p>
             </dd>
+        </dl>
             <dl id="Oct29">
             <dt><strong>29 October 2024</strong></dt>
 
             <dd>
-                <p><i>Population Diversity in Fitness-Neutral Landscapes </i>&mdash; <a href="https://inf.ethz.ch/people/people-atoz/person-detail.MTc0MDI5.TGlzdC8zMDQsLTIxNDE4MTU0NjA=.html">Johannes Lengler</a>, ETH Zurich, Switzerland</p>
+                <p><i>Runtime analysis of coevolutionary algorithms on a class of symmetric zero-sum games </i>&mdash; <a href="https://www.alistairbenford.com">Alistair Benford</a>, School of Computer Science, University of Birmingham, UK</p>
                 <p>
-                    One one the major advantages of population-based optimization heuristics
-    like genetic algorithms is that we can recombine two or more solutions into
-    a new one by crossover. In practice, crossover is known
-    to be extremely helpful, and we would also like to understand how much it
-    helps in theoretical benchmarks. However, there is one obstacle: The
-    effectiveness of crossover depends on the population diversity (e.g.,
-    measured by average Hamming distance of the solutions), so we need to
-    understand how the diversity of a population evolves over time.</p>
-
-    <p>    We answer this question under a seemingly very strong assumption: for a
-    flat objective function, i.e., in absence of fitness signals. We show that
-    in this case, surprisingly, the details of algorithm have almost no
-    influence on the diversity. Specifically, for the (&mu;+1) Genetic Algorithm
-    we show that diversity approaches an equilibrium which (almost) does not
-    depend on the used mutation or crossover operators. The equilibrium point
-    increases linearly with the population size.
-</p>
-                <p>
-    Although flat objective functions are seemingly uninteresting, the result
-    turned out to be surprisingly useful. I will give one application: for
-    Jump, a standard benchmark for local optima, the runtime of the (&mu;+1) GA
-    with a small modification is reduced massively by crossover, because the
-    natural diversity in this range is large enough to speed up optimization.
-    </p>
+                Will be inserted soon!    
+                </p>
                 
             </dd>
- </dl>
+         </dl>
+    <dl id="Nov5">
+            <dt><strong>5 November 2024</strong></dt>
+                
+            <dd>
+                <p><i>Finding the hidden subset in hidden subset problems </i> &mdash; <a href="https://research.birmingham.ac.uk/en/persons/jon-rowe">Jon Rowe</a>, University of Birmingham, UK</p>
+
+                <p>
+                    A hidden subset is defined on n bits, embedded in N bits (where N is typically much larger than n). The remaining N-n bits are neutral and do not affect the fitness of a string. There exist
+                    evolutionary algorithms which find an optimal string in time that depends only on n and not on N for certain hidden subset problems. However, there seems to be no way for the algorithm to know 
+                    when it has found the solution, nor can the relevant bits be identified once it has done so. We address this problem by running \log N copies of the algorithm in parallel and taking a vote for 
+                    the value in each bit position. Along the way, we prove a couple of lemmas of potentially broad application. The first gives an easy way of obtaining a bound on the time taken for a number of 
+                    parallel runs of a process to complete. The second states that the probability a (1+1)EA, with any mutation scheme, produces an incorrect bit value, for weakly monotonic functions with a unique
+                    optimum, is no greater than 1/2, at each time step.
+                </p>
+            </dd>
+        </dl>
 
     </div>
 </body>
