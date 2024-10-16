@@ -70,7 +70,7 @@
                 </p>
                 <p>
                     In this talk, we will present the first theoretical analysis of the running time for SPEA2 on three commonly studied multi-objective optimization problems: m-OneMinMax, m-LeadingOnesTrailingZeroes, 
-                    and m-OneJumpZeroJump. We show that SPEA2 achieves expected running times of O(µn min{m log(n), n}, O(µn<sup>2</sup>), and O(µ n<sup>k</sup> min{mn, 3<sup>m/2</sup>}) for these 
+                    and m-OneJumpZeroJump. We show that SPEA2 achieves expected running times of O(µn min{mlog(n),n}, O(µn<sup>2</sup>), and O(µn<sup>k</sup> min{mn, 3<sup>m/2</sup>}) for these 
                     problems respectively, where m is the number of objectives, and µ is the population size. The proofs are accomplished through general theorems which are also applicable for analyzing the expected 
                     running time of other MOEAs on these problems, and thus can be helpful for future theoretical analysis of MOEAs.
                     
@@ -97,7 +97,7 @@
                 <p>
                     A hidden subset is defined on n bits, embedded in N bits (where N is typically much larger than n). The remaining N-n bits are neutral and do not affect the fitness of a string. There exist
                     evolutionary algorithms which find an optimal string in time that depends only on n and not on N for certain hidden subset problems. However, there seems to be no way for the algorithm to know 
-                    when it has found the solution, nor can the relevant bits be identified once it has done so. We address this problem by running \log N copies of the algorithm in parallel and taking a vote for 
+                    when it has found the solution, nor can the relevant bits be identified once it has done so. We address this problem by running log(N) copies of the algorithm in parallel and taking a vote for 
                     the value in each bit position. Along the way, we prove a couple of lemmas of potentially broad application. The first gives an easy way of obtaining a bound on the time taken for a number of 
                     parallel runs of a process to complete. The second states that the probability a (1+1)EA, with any mutation scheme, produces an incorrect bit value, for weakly monotonic functions with a unique
                     optimum, is no greater than 1/2, at each time step.
