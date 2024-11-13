@@ -50,7 +50,10 @@
             <li><a href="#Oct22"><b>22 October: </b>Shengjie Ren, <i>A First Running Time Analysis of the Strength Pareto Evolutionary Algorithm 2 (SPEA2) </i></a></li>
             <li><a href="#Oct29"><b>29 October: </b>Alistair Benford, <i>Runtime Analysis of Coevolutionary Algorithms on a Class of Symmetric Zero-Sum Games </i></a></li>
             <li><a href="#Nov5"><b>5 November: </b>Jon Rowe, <i>Finding the Hidden Subset in Hidden Subset Problems </i></a></li>
-            <li><a href="#Nov12"><b>12 November: </b>,Shishen Lin <i>Overcoming Binary Adversarial Optimisation with Competitive Coevolution </i></a></li>
+            <li><a href="#Nov12"><b>12 November: </b>Shishen Lin <i>Overcoming Binary Adversarial Optimisation with Competitive Coevolution </i></a></li>
+            <li><a href="#Nov19"><b>19 November: </b>Andrew Sutton <i>Growing a Population of Feasible Subgraphs </i></a></li>
+            <li><a href="#Nov26"><b>26 November: </b>Denis Antipov <i>Evolutionary Diversity Optimization: Recent Advances and Existing Challenges </i></a></li>
+            <li><a href="#Dez3"><b>3 Dezember: </b>Martin Krejca <i>Proven Runtime Guarantees for How the MOEA/D Computes the Pareto Front From the Subproblem Solutions </i></a></li>
         </ul>
 
         <h3>Abstracts of the talks</h3>
@@ -129,6 +132,59 @@
                     ε-approximation to the optimal solution of the "Diagonal Problem", i.e. in expected polynomial time assuming sufficiently low mutation rates and a large offspring population size.
                     On the other hand, the standard (1,λ)EA fails to find an ε-approximation to the optimal solution of the "Diagonal Problem" in polynomial time. This illustrates the potential of 
                     coevolution for solving binary adversarial optimisation problems.
+                </p>
+            </dd>
+        </dl>
+
+        <dl id="Nov19">
+            <dt><strong>19 November 2024</strong></dt>
+
+            <dd>
+                <p><i>Growing a Population of Feasible Subgraphs </i> &mdash; <a href="https://www.d.umn.edu/~amsutton/">Andrew Sutton</a>, University of Minnesota Duluth, USA</p>
+
+                <p>
+                    A parameterized graph problem consists of a graph G = (V,E) for which the goal is to identify a small set of vertices subject to a feasibility criterion (e.g., a vertex cover). Many existing evolutionary
+                    algorithms evolve populations of candidate vertex sets, and handle infeasibility via a penalty term incorporated into the fitness function. In this talk, I will discuss a different mechanism for tackling this type of
+                    problem in which the population consists of already-feasible subgraphs of the original graph G. The task of the EA is then to evolve increasingly larger feasible subgraphs until a solution to the original problem is 
+                    found. Using a generalization of uniform crossover together with mutation and a problem-specific constraint repair operation inspired by the algorithmic technique of iterative compression, this approach can solve
+                    arbitrary k-vertex cover problems in fixed-parameter tractable time, meaning the runtime scales only polynomially with the size of G (but superpolynomially in k). Finally, I will discuss how this approach could 
+                    also be used in benchmarking applications for generating graph instances that are provably maximal k-coverable subgraphs of an arbitrary graph.
+                </p>
+            </dd>
+        </dl>
+
+        <dl id="Nov26">
+            <dt><strong>26 November 2024</strong></dt>
+
+            <dd>
+                <p><i>Evolutionary Diversity Optimization: Recent Advances and Existing Challenges </i> &mdash; <a href="https://cs.adelaide.edu.au/~denis/">Denis Antipov</a>, University of Adelaide, Australia</p>
+
+                <p>
+                    Diversity optimization is the problem of finding a diverse set of good solutions for an optimization problem. It arises from real-world problems, in which the constraints cannot be strictly 
+                    formalized, hence a single best solution might occur infeasible. However, having a diverse set of good solutions minimizes the probability that all those solutions do not satisfy the constraints.
+                    The problem of finding a diverse set of solutions is much more complicated than a single-objective optimization, since its dimensionality is much higher. Despite this, evolutionary algorithms 
+                    (EAs) have been shown to be good solvers of diversity optimization problems. In this talk we will discuss recent results in the area of evolutionary diversity optimization, in particular the 
+                    landscape of such problems on the example of the vertex cover problem. We will also address the open questions in this area, in which theory can immensely help the practitioners.
+                </p>
+            </dd>
+        </dl>
+
+        <dl id="Dez3">
+            <dt><strong>3 Dezember 2024</strong></dt>
+
+            <dd>
+                <p><i>Proven Runtime Guarantees for How the MOEA/D Computes the Pareto Front From the Subproblem Solutions </i> &mdash; <a https://www.lix.polytechnique.fr/Labo/Martin.KREJCA/">Martin Krejca</a>, LIX, CNRS, Ecole Polytechnique, Institut Polytechnique de Paris, France</p>
+
+                <p>
+                    The decomposition-based multi-objective evolutionary algorithm (MOEA/D) does not directly optimize a given multi-objective function f, but instead optimizes N + 1 single-objective subproblems of f in a co-evolutionary manner. It maintains an archive of all 
+                    non-dominated solutions found and outputs it as approximation to the Pareto front. Once the MOEA/D found all optima of the subproblems (the g-optima), it may still miss Pareto optima of f. The algorithm is then tasked to find the remaining Pareto optima 
+                    directly by mutating the g-optima. In this talk, we discuss how the MOEA/D with only standard mutation operators computes the whole Pareto front of the OneMinMax benchmark when the g-optima are a strict subset of the Pareto front. For standard bit mutation, 
+                    we show an expected runtime of O(n N log(n) + n<sup>n/(2N)</sup> N log(n)) function evaluations. Especially for the second, more interesting phase when the algorithm start with all g-optima, we have an $\Omega(n<sup>(1/2)(n/N + 1)\sqrt{N} 2<sup>{-n/N}</sup>)$ expected runtime. 
+                    This runtime is super-polynomial if N = o(n), since this leaves large gaps between the g-optima, which require costly mutations to cover.
+
+                    For power-law mutation with exponent b in (1, 2), we prove an expected runtime of $O\left(n N \log n + n<sup>b</sup> \log n\right)$ function evaluations. The $O\left(n<sup>b<sup> \log n\right)$ term stems from the second phase of starting with all g-optima, and it is independent 
+                    of the number of subproblems N. This leads to a huge speedup compared to the lower bound for standard bit mutation. In general, our overall bound for power-law suggests that the MOEA/D performs best for N = O(n<sup>\beta - 1</sup>), resulting in an O(n<sup>b</sup> log (n))$ 
+                    bound. In contrast to standard bit mutation, smaller values of N are better for power-law mutation, as it is capable of easily creating missing solutions.
                 </p>
             </dd>
         </dl>
