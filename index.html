@@ -204,11 +204,11 @@
                 <p>
                     Previously, we have shown that the simple GSEMO can fail in noisy optimisation by deleting solutions indiscriminately, while the popular NSGA-II algorithm does not suffer from this drawback. This talk discusses this drawback further in deterministic optimisation. 
                     We define a general class of functions for which GSEMO algorithms require n<sup>Ω(n)</sup> expected fitness evaluations to optimise. On the other hand, popular MOEAs like NSGA-II, NSGA-III or SMS-EMOA with a mild diversity-mechanism of removing duplicate genotypes 
-                    are shown to be efficient on some functions of this class by having an expected optimisation time of only $O(n*log(n)).
+                    are shown to be efficient on some functions of this class by having an expected optimisation time of only O(n*log(n)).
                 </p>
                 <p>
                     Another drawback of GSEMO is also illustrated with another class of functions, in which GSEMO selects parents for production indiscriminately and hence grows a too large population and its optimisation time is slowed down to 2<sup>Ω(n)</sup>. We then show that the 
-                    three popular MOEAs can optimise this function class efficiently in O(n<sup>2<\sup>).
+                    three popular MOEAs can optimise this function class efficiently in O(n<sup>2</sup>).
                 </p>
                 <p>
                     Our analysis highlights the importance of population management in MOEAs and lends credence to the designs of popular MOEAs.
