@@ -54,6 +54,7 @@
             <li><a href="#Nov19"><b>19 November: </b>Andrew Sutton, <i>Growing a Population of Feasible Subgraphs </i></a></li>
             <li><a href="#Nov26"><b>26 November: </b>Denis Antipov, <i>Evolutionary Diversity Optimization: Recent Advances and Existing Challenges </i></a></li>
             <li><a href="#Dec3"><b>3 December: </b>Martin Krejca, <i>Proven Runtime Guarantees for How the MOEA/D Computes the Pareto Front From the Subproblem Solutions </i></a></li>
+            <li><a href="#Dec10"><b>10 December: </b>Duc-Cuong Dang, <i>Function classes on which popular MOEAs outperform GSEMO </i></a></li>
         </ul>
 
         <h3>Abstracts of the talks</h3>
@@ -189,6 +190,27 @@
                     For power-law mutation with exponent b from the interval (1,2), we prove an expected runtime of O(n*N*log(n)+n<sup>b</sup>*log(n)) function evaluations. The O(n<sup>b</sup>*log(n)) term stems from the second phase of starting with all g-optima, and it is independent 
                     of the number of subproblems N. This leads to a huge speedup compared to the lower bound for standard bit mutation. In general, our overall bound for power-law suggests that the MOEA/D performs best for N = O(n<sup>b-1</sup>), resulting in an O(n<sup>b</sup>*log(n))
                     bound. In contrast to standard bit mutation, smaller values of N are better for power-law mutation, as it is capable of easily creating missing solutions.
+                </p>
+            </dd>
+        </dl>
+
+         <dl id="Dec3">
+            <dt><strong>10 December 2024</strong></dt>
+
+            <dd>
+                <p><i>Function classes on which popular MOEAs outperform GSEMO </i> &mdash; <a href="https://www.fim.uni-passau.de/intelligent-systems/lehrstuhlteam/personendetails?config_id=a8d16e612076595e5b55aa227262539d&group_id=&module=TemplatePersondetails&range_id=acc511e56743708cda6abb3e0f582535&username=dang04&cHash=c62385f2c82c425a8b5998a769020300">Duc-Cuong Dang</a>, University of Passau, Germany</p>
+
+                <p>
+                    Previously, we have shown that the simple GSEMO can fail in noisy optimisation by deleting solutions indiscriminately, while the popular NSGA-II algorithm does not suffer from this drawback. This talk discusses this drawback further in deterministic optimisation. 
+                    We define a general class of functions for which GSEMO algorithms require n<sup>Ω(n)</sup> expected fitness evaluations to optimise. On the other hand, popular MOEAs like NSGA-II, NSGA-III or SMS-EMOA with a mild diversity-mechanism of removing duplicate genotypes 
+                    are shown to be efficient on some functions of this class by having an expected optimisation time of only $O(n*log(n)).
+                </p>
+                <p>
+                    Another drawback of GSEMO is also illustrated with another class of functions, in which GSEMO selects parents for production indiscriminately and hence grows a too large population and its optimisation time is slowed down to 2<sup>Ω(n)</sup>. We then show that the 
+                    three popular MOEAs can optimise this function class efficiently in O(n<sup>2<\sup>).
+                </p>
+                <p>
+                    Our analysis highlights the importance of population management in MOEAs and lends credence to the designs of popular MOEAs.
                 </p>
             </dd>
         </dl>
