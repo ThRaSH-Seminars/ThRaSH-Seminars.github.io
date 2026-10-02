@@ -8,7 +8,7 @@ The file list is quite similar:
 - `index.html` &mdash; the single webpage of the seminar, visible at https://thrash-seminars.github.io/.
 - `template-modern.html` &mdash; a template for future organizers to copy and make it the new `index.html`.
 - `thrash-modern-autumn.css` and `thrash-modern-spring.css` &mdash; style sheet for Autumn and Spring themes respectively. If you dislike those, you can also make your own.
-- `pre` folder &mdash; contains sub-folders with web-pages of the previous editions, move the old `index.html` here ot its own folder and correct the CSS path as instructed below.
+- `pre` folder &mdash; contains sub-folders with web-pages of the previous editions. Again, when starting organizing a new edition, move the old `index.html` here to its own folder and correct the CSS path as instructed.
 
 The template was written by github user d2cmath, with a little help from [OpenAI's hallucinating machine](https://chatgpt.com/).
 
