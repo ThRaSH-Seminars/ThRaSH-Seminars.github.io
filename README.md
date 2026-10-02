@@ -10,7 +10,7 @@ The file list is quite similar:
 - `thrash-modern-autumn.css` and `thrash-modern-spring.css` &mdash; style sheet for Autumn and Spring themes respectively. If you dislike those, you can also make your own.
 - `pre` folder &mdash; contains sub-folders with web-pages of the previous editions. Again, when starting organizing a new edition, move the old `index.html` here to its own folder and correct the CSS path as instructed.
 
-The template was written by github user d2cmath, with a little help from OpenAI's [hallucinating machine](https://chatgpt.com/). It is free and wild, and user d2cmath will take no responsibility in case of misuses or damage to your devices by the template.
+The template was written by github user d2cmath, with a little help from OpenAI's [hallucinating machine](https://chatgpt.com/). It is free and wild, and user d2cmath will take no responsibility in case of misuses or damage to your devices.
 
 ## Old style
 
