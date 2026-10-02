@@ -1,4 +1,20 @@
-This is a repository for storing web-pages of ThRaSH seminars. Its structure is:
+This is a repository for storing web-pages of ThRaSH seminars. 
+
+## New style
+
+Since Autumn 2026, we offer future organizers to use a new template with [Bootstrap](https://getbootstrap.com/) for modern looks and Web-plasticity support, and [Katex](https://katex.org/) to write mathematics in the abstracts. The instructions is pretty much the same as below except files have the suffixes `modern` attached to them. Also the website is a single page and we no longer need to link to `pre/index.html` anymore (but you still need to update that file, in case future organizers prefer the old style below).
+
+The file list is quite similar: 
+- `index.html` &mdash; the single webpage of the seminar, visible at https://thrash-seminars.github.io/.
+- `template-modern.html` &mdash; a template for future organizers to copy and make it the new `index.html`.
+- `thrash-modern-autumn.css` and `thrash-modern-spring.css` &mdash; style sheet for Autumn and Spring themes respectively. If you dislike those, you can also make your own.
+- `pre` folder &mdash; contains sub-folders with web-pages of the previous editions, move the old `index.html` here ot its own folder and correct the CSS path as instructed below.
+
+The template was written by github user d2cmath, with a little help from [OpenAI's hallucinating machine](https://chatgpt.com/).
+
+## Old style
+
+Its structure is:
 
 - `index.html` &mdash; the current web-page of the seminar, which you can access at https://thrash-seminars.github.io/
 - `template.html` &mdash; a template of an empty page (from which you can create a new seminar series page)
