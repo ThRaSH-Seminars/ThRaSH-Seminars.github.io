@@ -116,11 +116,55 @@
             <div class="card h-100 shadow-sm border-0 bg-body-tertiary">
                 <div class="card-body justify-content-center p-4">
                 
-                <h2 class="talk-title fs-4 fw-bold">Title (TBA)</h2>    
+                <h2 class="talk-title fs-4 fw-bold">
+                    Can LLMs Design and Analyse Evolutionary Algorithms? Machine-checked Runtime Bounds in Lean
+                </h2>    
                 <div class="speaker my-2"><i class="bi bi-mic-fill me-1"></i>
-                    Per Kristian Lehre<span class="text-body-tertiary"> &nbsp;·&nbsp; University of Birmingham, UK</span>
+                    Per Kristian Lehre
+                    <span class="text-body-tertiary"> &nbsp;·&nbsp; University of Birmingham, UK</span>
                 </div>                    
-                <p> Abstract (TBA).</p>
+                <!--<p> Abstract (TBA).</p>-->
+                
+<p>
+LLMs now prove hard theorems in Lean. In this talk, we ask whether
+they can also design evolutionary algorithms and prove their
+efficiency. We present two contributions. </p>
+
+<p>
+First, we describe a Lean formalisation of runtime analysis of
+black-box optimisation algorithms. Built from measure-theoretic and
+martingale foundations, it includes additive and multiplicative drift
+theorems and general conditions for finite expected hitting times. As
+an application, we prove the asymptotically tight upper bound
+\((1+o(1))\;en\ln n\) on the expected runtime of the (1+1) EA on OneMax. </p>
+
+<p>
+Second, building on this library, we present a staged agentic pipeline
+modelled on the research methodology of our field. Starting from
+random search, the agent proposes algorithms, with Lean guards
+checking admissibility conditions. It then defines a potential
+function and proves drift bounds that guarantee a runtime
+improvement. All definitions and theorems are machine-checked, and at
+no point are algorithms compared empirically. </p>
+
+<p>
+Across eight problem classes, 12 of 15 runs with frontier models
+complete the pipeline with a machine-checked runtime bound. On
+CycleUncover, a new problem on which the (1+1) EA needs
+\(e^{\Omega(n)}\) expected runtime, the agent designs an \(O(n^2)\)
+algorithm that first learns the hidden structure. On well-covered
+vertex cover, given an anonymised fitness definition, it designs an
+\(O(n^4)\) EA with regime-switching mutation rates. For integer-valued
+submodular minimisation, it moves beyond evolutionary algorithms and
+rediscovers subgradient descent on the Lovász extension. Without the
+staging, the agent copies random search or leaves proofs incomplete.
+Experiments with open-weight models were unsuccessful. </p>
+
+<p>
+To the best of our knowledge, this is the first Lean formalisation of
+runtime analysis of black-box optimisation algorithms, and the first
+automated pipeline that designs efficient black-box optimisation
+algorithms with machine-checked runtime bounds. </p>                
                 
                 <div class="speaker my-2">
                 <i class="bi bi-clock me-1"></i>
@@ -236,7 +280,7 @@
 
       <div class="talk-content flex-grow-1">
         <div class="talk-title">
-          Title (TBA)
+          Can LLMs Design and Analyse Evolutionary Algorithms? Machine-checked Runtime Bounds in Lean
         </div>
 
         <div class="speaker mt-2">
@@ -258,9 +302,46 @@
         </button>
         <div class="collapse" id="abstract1">
           <div class="abstract border-top pt-3 mt-2">
-            <p>
-              Abstract (TBA, but the research will be \(\mathcal{E}^2\pi c\)).
-            </p>
+<p>
+LLMs now prove hard theorems in Lean. In this talk, we ask whether
+they can also design evolutionary algorithms and prove their
+efficiency. We present two contributions. </p>
+
+<p>
+First, we describe a Lean formalisation of runtime analysis of
+black-box optimisation algorithms. Built from measure-theoretic and
+martingale foundations, it includes additive and multiplicative drift
+theorems and general conditions for finite expected hitting times. As
+an application, we prove the asymptotically tight upper bound
+\((1+o(1))\;en\ln n\) on the expected runtime of the (1+1) EA on OneMax. </p>
+
+<p>
+Second, building on this library, we present a staged agentic pipeline
+modelled on the research methodology of our field. Starting from
+random search, the agent proposes algorithms, with Lean guards
+checking admissibility conditions. It then defines a potential
+function and proves drift bounds that guarantee a runtime
+improvement. All definitions and theorems are machine-checked, and at
+no point are algorithms compared empirically. </p>
+
+<p>
+Across eight problem classes, 12 of 15 runs with frontier models
+complete the pipeline with a machine-checked runtime bound. On
+CycleUncover, a new problem on which the (1+1) EA needs
+\(e^{\Omega(n)}\) expected runtime, the agent designs an \(O(n^2)\)
+algorithm that first learns the hidden structure. On well-covered
+vertex cover, given an anonymised fitness definition, it designs an
+\(O(n^4)\) EA with regime-switching mutation rates. For integer-valued
+submodular minimisation, it moves beyond evolutionary algorithms and
+rediscovers subgradient descent on the Lovász extension. Without the
+staging, the agent copies random search or leaves proofs incomplete.
+Experiments with open-weight models were unsuccessful. </p>
+
+<p>
+To the best of our knowledge, this is the first Lean formalisation of
+runtime analysis of black-box optimisation algorithms, and the first
+automated pipeline that designs efficient black-box optimisation
+algorithms with machine-checked runtime bounds. </p>
           </div>
         </div>
       </div>
