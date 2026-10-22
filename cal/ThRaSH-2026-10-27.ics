@@ -1,0 +1,15 @@
+
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//ThRaSH Seminar//Generated ICS//
+    METHOD:PUBLISH
+    BEGIN:VEVENT
+    UID:ThRaSH-2026-10-27
+    DTSTART:20261027T140000Z
+    DTEND:20261027T150000Z
+    SUMMARY:ThRaSH Seminar
+    DESCRIPTION:Speaker: Johanna Gasse (Hasso Plattner Institute\, Germany)\nTitle: Vertex Coloring: Combinatorial Landscape Analysis and Run Time Bounds
+    LOCATION:https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1
+    END:VEVENT
+    END:VCALENDAR
+    

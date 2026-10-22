@@ -1,0 +1,15 @@
+
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//ThRaSH Seminar//Generated ICS//
+    METHOD:PUBLISH
+    BEGIN:VEVENT
+    UID:ThRaSH-2026-11-10
+    DTSTART:20261110T140000Z
+    DTEND:20261110T150000Z
+    SUMMARY:ThRaSH Seminar
+    DESCRIPTION:Speaker: Yuetong Sun (Nanjing University\, China) \nTitle: Theoretical Analysis of Multi-Objective Evolutionary Algorithms on Integer Spaces with Local Optima
+    LOCATION:https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1
+    END:VEVENT
+    END:VCALENDAR
+    

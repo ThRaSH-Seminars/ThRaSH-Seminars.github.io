@@ -1,0 +1,15 @@
+
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//ThRaSH Seminar//Generated ICS//
+    METHOD:PUBLISH
+    BEGIN:VEVENT
+    UID:ThRaSH-2026-12-1
+    DTSTART:2026121T140000Z
+    DTEND:2026121T150000Z
+    SUMMARY:ThRaSH Seminar
+    DESCRIPTION:Speaker: Roman Kalkreuth (RWTH Aachen University\, Germany)\nTitle: Runtime Analysis of Cartesian Genetic Programming on MAX: A Proven Exponential Speedup
+    LOCATION:https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1
+    END:VEVENT
+    END:VCALENDAR
+    

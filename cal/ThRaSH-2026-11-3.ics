@@ -1,0 +1,15 @@
+
+    BEGIN:VCALENDAR
+    VERSION:2.0
+    PRODID:-//ThRaSH Seminar//Generated ICS//
+    METHOD:PUBLISH
+    BEGIN:VEVENT
+    UID:ThRaSH-2026-11-3
+    DTSTART:2026113T140000Z
+    DTEND:2026113T150000Z
+    SUMMARY:ThRaSH Seminar
+    DESCRIPTION:Speaker: Andre Opris (University of Passau\, Germany)\nTitle: 
+    LOCATION:https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1
+    END:VEVENT
+    END:VCALENDAR
+    
