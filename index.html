@@ -118,19 +118,19 @@
                 <div class="card-body justify-content-center p-4">
                 
                 <h2 class="talk-title fs-4 fw-bold">
-		  Vertex Coloring: Combinatorial Landscape Analysis and Run Time Bounds
+		  Provable Speedups From Dynamic Population Sizes in Evolutionary Algorithms for Multiobjective Optimization
                 </h2>    
                 <div class="speaker my-2"><i class="bi bi-mic-fill me-1"></i>
-		  Johanna Gasse
-                    <span class="text-body-tertiary"> &nbsp;·&nbsp; Hasso Plattner Institute, Germany </span>
+		  Andre Opris
+                    <span class="text-body-tertiary"> &nbsp;·&nbsp; University of Passau, Germany </span>
                 </div>                    
                 <!--<p> Abstract (TBA).</p>-->                
             <p>
-              We seek to understand the optimization behavior for Vertex Coloring in two ways: By analyzing what types of local optima are present and by finding run time bounds. For a variety of graph classes each, we determine whether the induced landscapes are unimodal, plateau-unimodal (all optima are just one plateau), equimodal (all local optima are global) or truly multimodal. We do this for two different neighborhood operators, one based on making only a single change and one also allowing swaps (interchanging two parts of the solution). Further, we show that even on unimodal instances, the run time is still exponential on two simple graph classes. We introduce an improved fitness function that produces a more favourable landscape and therefore allows for a polynomial run time.
+	      This paper investigates the role of dynamic population sizes in evolutionary multi-objective optimization. Although such approaches are widely used in practice, their benefits remain poorly understood, and rigorous runtime analyses explaining when and why they help are still scarce. To address this, we introduce the bi-objective problem class <code>CLIMB</code>, where the parameter \(\ell\) determines the size of the Pareto front. On this problem class, we analyze the runtime of GSEMO and the widely used NSGA-II. Our results show that allowing a dynamic population size for NSGA-II can lead to a moderate improvement, yielding a super-constant speedup for \(\ell \in \omega(\log(n)) \cap o(\sqrt{n \log(n)})\) in terms of fitness evaluations. In particular, we prove that GSEMO and NSGA-II-DYN, a version of NSGA-II with dynamic population sizes that we propose in this paper, can cover the Pareto front of <code>CLIMB</code> in expected \(O(n \log(n) + \ell^2 \log(en/(n-2\ell+3)))\) evaluations, and that this bound is tight for \(\ell = O(\sqrt{n \log(n)})\). In contrast, NSGA-II with a fixed population size of at least \(4\ell\) requires expected \(O(n\ell + n\log(n) + \ell^2 \log(en/(n-2\ell+3)))\) evaluations to cover the entire Pareto front of <code>CLIMB</code>, while still requiring expected \(\Omega(\ell n)\) evaluations to even find a Pareto-optimal search point. To the best of our knowledge, this is the first rigorous runtime analysis in bi-objective optimization that demonstrates a super-constant speedup of GSEMO over NSGA-II. Our analysis builds on concepts from single-objective optimization, such as the evolution of population diversity over time, and employs the well-known family-tree method to prove the lower bound.
             </p>                
                 <div class="speaker my-2">
                 <i class="bi bi-clock me-1"></i>
-                    Tuesday, Oct 27 at 16:00 CET 
+                    Tuesday, Nov 3 at 16:00 CET 
                 <a href="https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1" class="btn btn-season mx-3" target="_blank" rel="noopener">
                     <i class="bi bi-camera-video-fill me-2"></i>
                     Join the seminar
@@ -367,7 +367,7 @@ algorithms with machine-checked runtime bounds. </p>
 
       <div class="talk-content flex-grow-1">
         <div class="talk-title">
-          Title (TBA)
+	  Provable Speedups From Dynamic Population Sizes in Evolutionary Algorithms for Multiobjective Optimization
         </div>
 
         <div class="speaker mt-2">
@@ -390,7 +390,7 @@ algorithms with machine-checked runtime bounds. </p>
         <div class="collapse" id="abstract3">
           <div class="abstract border-top pt-3 mt-2">
             <p>
-              Abstract (TBA)
+	      This paper investigates the role of dynamic population sizes in evolutionary multi-objective optimization. Although such approaches are widely used in practice, their benefits remain poorly understood, and rigorous runtime analyses explaining when and why they help are still scarce. To address this, we introduce the bi-objective problem class <code>CLIMB</code>, where the parameter \(\ell\) determines the size of the Pareto front. On this problem class, we analyze the runtime of GSEMO and the widely used NSGA-II. Our results show that allowing a dynamic population size for NSGA-II can lead to a moderate improvement, yielding a super-constant speedup for \(\ell \in \omega(\log(n)) \cap o(\sqrt{n \log(n)})\) in terms of fitness evaluations. In particular, we prove that GSEMO and NSGA-II-DYN, a version of NSGA-II with dynamic population sizes that we propose in this paper, can cover the Pareto front of <code>CLIMB</code> in expected \(O(n \log(n) + \ell^2 \log(en/(n-2\ell+3)))\) evaluations, and that this bound is tight for \(\ell = O(\sqrt{n \log(n)})\). In contrast, NSGA-II with a fixed population size of at least \(4\ell\) requires expected \(O(n\ell + n\log(n) + \ell^2 \log(en/(n-2\ell+3)))\) evaluations to cover the entire Pareto front of <code>CLIMB</code>, while still requiring expected \(\Omega(\ell n)\) evaluations to even find a Pareto-optimal search point. To the best of our knowledge, this is the first rigorous runtime analysis in bi-objective optimization that demonstrates a super-constant speedup of GSEMO over NSGA-II. Our analysis builds on concepts from single-objective optimization, such as the evolution of population diversity over time, and employs the well-known family-tree method to prove the lower bound.
             </p>
           </div>
         </div>
