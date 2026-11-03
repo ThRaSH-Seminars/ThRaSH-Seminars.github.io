@@ -144,3 +144,10 @@
     color: white;
 }
 
+[data-bs-theme="light"] em {
+    color: #e00;
+}
+
+[data-bs-theme="dark"] em {
+    color: #f66;
+}

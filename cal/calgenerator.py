@@ -84,7 +84,7 @@ def schedule_talk(speaker,title,day,month,year=BASEYEAR,hour=BASETIME,zoom=ZOOML
 
 schedule_talk("Per Kristian Lehre (University of Birmingham, UK)"," Can LLMs Design and Analyse Evolutionary Algorithms? Machine-checked Runtime Bounds in Lean",20,10)
 schedule_talk("Johanna Gasse (Hasso Plattner Institute, Germany)","Vertex Coloring: Combinatorial Landscape Analysis and Run Time Bounds",27,10)
-schedule_talk("Andre Opris (University of Passau, Germany)","",3,11)
+schedule_talk("Andre Opris (University of Passau, Germany)","Provable Speedups From Dynamic Population Sizes in Evolutionary Algorithms for Multiobjective Optimization",3,11)
 schedule_talk("Yuetong Sun (Nanjing University, China) ","Theoretical Analysis of Multi-Objective Evolutionary Algorithms on Integer Spaces with Local Optima",10,11,hour=15)
 #schedule_talk("","",17,11)
 #schedule_talk("","",24,11)

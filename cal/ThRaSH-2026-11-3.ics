@@ -26,7 +26,7 @@
     DTSTART;TZID=Europe/Berlin:2026113T160000Z
     DTEND;TZID=Europe/Berlin:2026113T170000Z
     SUMMARY:ThRaSH Seminar
-    DESCRIPTION:Speaker: Andre Opris (University of Passau\, Germany)\nTitle: 
+    DESCRIPTION:Speaker: Andre Opris (University of Passau\, Germany)\nTitle: Provable Speedups From Dynamic Population Sizes in Evolutionary Algorithms for Multiobjective Optimization
     LOCATION:https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1
     END:VEVENT
     END:VCALENDAR
