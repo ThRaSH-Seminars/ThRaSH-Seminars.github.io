@@ -118,19 +118,19 @@
                 <div class="card-body justify-content-center p-4">
                 
                   <h2 class="talk-title fs-4 fw-bold">
-		    Theoretical Analysis of Multi-Objective Evolutionary Algorithms on Integer Spaces with Local Optima
+		    Understanding the Co-evolutionary Solution Exchange of the MOEA/D: Already the Smallest Communication Gives the Best-Possible Speed-Up
                 </h2>    
                 <div class="speaker my-2"><i class="bi bi-mic-fill me-1"></i>
-		  Yuetong Sun
-                    <span class="text-body-tertiary"> &nbsp;·&nbsp; Nanjing University, China </span>
+		  Martin S. Krejca
+                  <span class="text-body-tertiary"> &nbsp;·&nbsp; École Polytechnique, France </span>
                 </div>                    
                 <!--<p> Abstract (TBA).</p>-->                
 		  <p>
-		    Multi-objective evolutionary algorithms (MOEAs) are popular tools for multi-objective optimization (MOO), and have been successfully applied to many real-world MOO problems. However, the theoretical study has lagged behind their practical success and remains largely confined to synthetic pseudo-Boolean functions. To close this gap, this paper–drawing inspiration from a class of popular continuous problems with real-world relevance– introduces a multi-objective benchmark defined on an integer space, featuring an analyzable landscape and the presence of local optima. We conduct a running time analysis on the proposed benchmark and derive several theoretical results. Specifically, we prove that a widely-studied MOEA, GSEMO, using unit-step mutation can be trapped in local optimal regions and fail to identify the Pareto front. Fortunately, we find that this difficulty can be overcome either by incorporating an ageing mechanism or using heavy-tailed mutations that allow multivalued changes along each dimension of an individual. In addition, we demonstrate the extendability of the proposed benchmark to more complex landscapes with numerous local optima, resembling well-established problems in the field (e.g., those from the ZDT and DTLZ suites). We hope this work is a step forward for the theoretical study of MOEAs on problems that are closely related to those commonly investigated in empirical research.
+		    Besides domination-based algorithms such as the NSGA-II, the decomposition-based MOEA/D is one of the most popular and successful optimization heuristic for multi-objective problems. It decomposes the problem into several, single-objective subproblems. By solving these in a co-evolutionary manner and archiving non-dominated solutions, it approximates or computes the Pareto front. Interestingly, so far no advantages from the co-evolutionary communication of subproblem solutions were proven. In this first mathematical runtime analysis addressing this research question, we investigate how the mutation-based MOEA/D solves the classic <code>OneMinMax</code> benchmark when solutions are exchanged among subproblems in different distances \(r\). We show, for the first time, that the MOEA/D profits from an exchange of solutions, and that already very small communication radii \(r\) are sufficient to maximally profit from this feature of the algorithm. More precisely, for all values \(r \ge 1\) we prove a tight runtime guarantee of \(\Theta(n^2)\), where \(n\) is the problem size. This is asymptotically faster than the known bound of \(O(n^2 \log n)\) guarantee for \(r=0\) which we complement with a matching bound of \(\Omega(n^2 \log n)\).
             </p>                
                 <div class="speaker my-2">
                 <i class="bi bi-clock me-1"></i>
-                    Tuesday, Nov 10 at <b>15:00 CET</b> <em>(one hour earlier!)</em>
+                    Tuesday, Nov 24 at 16:00 CET
                 <a href="https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1" class="btn btn-season mx-3" target="_blank" rel="noopener">
                     <i class="bi bi-camera-video-fill me-2"></i>
                     Join the seminar
@@ -455,15 +455,15 @@ algorithms with machine-checked runtime bounds. </p>
 
       <div class="talk-content flex-grow-1">
         <div class="talk-title">
-          Title (TBA)
+          No talk scheduled
         </div>
 
         <div class="speaker mt-2">
-          <i class="bi bi-mic-fill me-1"></i>
+          <!-- <i class="bi bi-mic-fill me-1"></i>
           Speaker
           <span class="text-body-tertiary">
             &nbsp;·&nbsp; Affiliation
-          </span>
+          </span> -->
         </div>
 
         <button
