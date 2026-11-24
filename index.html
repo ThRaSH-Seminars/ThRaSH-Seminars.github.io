@@ -118,19 +118,39 @@
                 <div class="card-body justify-content-center p-4">
                 
                   <h2 class="talk-title fs-4 fw-bold">
-		    Understanding the Co-evolutionary Solution Exchange of the MOEA/D: Already the Smallest Communication Gives the Best-Possible Speed-Up
+		    Runtime Analysis of Cartesian Genetic Programming on MAX: A Proven Exponential Speedup
                 </h2>    
                 <div class="speaker my-2"><i class="bi bi-mic-fill me-1"></i>
-		  Martin S. Krejca
-                  <span class="text-body-tertiary"> &nbsp;·&nbsp; École Polytechnique, France </span>
+		  Roman Kalkreuth
+                  <span class="text-body-tertiary"> &nbsp;·&nbsp; RWTH Aachen University, Germany </span>
                 </div>                    
                 <!--<p> Abstract (TBA).</p>-->                
 		  <p>
-		    Besides domination-based algorithms such as the NSGA-II, the decomposition-based MOEA/D is one of the most popular and successful optimization heuristic for multi-objective problems. It decomposes the problem into several, single-objective subproblems. By solving these in a co-evolutionary manner and archiving non-dominated solutions, it approximates or computes the Pareto front. Interestingly, so far no advantages from the co-evolutionary communication of subproblem solutions were proven. In this first mathematical runtime analysis addressing this research question, we investigate how the mutation-based MOEA/D solves the classic <code>OneMinMax</code> benchmark when solutions are exchanged among subproblems in different distances \(r\). We show, for the first time, that the MOEA/D profits from an exchange of solutions, and that already very small communication radii \(r\) are sufficient to maximally profit from this feature of the algorithm. More precisely, for all values \(r \ge 1\) we prove a tight runtime guarantee of \(\Theta(n^2)\), where \(n\) is the problem size. This is asymptotically faster than the known bound of \(O(n^2 \log n)\) guarantee for \(r=0\) which we complement with a matching bound of \(\Omega(n^2 \log n)\).
+Genetic Programming (GP) is a search paradigm inspired from natural evolution 
+for the automated discovery of expressions, functions, and computer
+programs. Cartesian GP (CGP) is a flavor of GP that uses a graph-based model to
+encode candidate programs, as contrasted to the conventional Tree-based GP
+(TGP). Since its inception two decades ago, CGP has predominantly been analyzed
+empirically, thus little is known regarding its theoretical performance guarantees.            
+            </p>
+            <p>
+This work analyzes CGP for the <code>MAX</code> problem, which has been only 
+rigorously studied for TGP with a proven expected runtime superlinear in the 
+optimal program length \(n\). We prove that the expected time for 
+the (\(1\)+\(1\)) CGP employing common mutation operators to evolve an equivalent 
+optimal of the same output is polylogarithmic in \(n\), specifically 
+at most \(O(\log^9{n})\). This is remarkable, as it shows an
+exponential speedup by switching to CGP. 
+
+Our results shed light on the benefit and the compactness of the graph-based
+representation for programs, and on how CGP can navigate its 
+search and fitness spaces efficiently. This is a first proven performance 
+guarantee for CGP on an established benchmark problem. Experiments
+complement our theoretical findings.
             </p>                
                 <div class="speaker my-2">
                 <i class="bi bi-clock me-1"></i>
-                    Tuesday, Nov 24 at 16:00 CET
+                    Tuesday, Dec 1 at 16:00 CET
                 <a href="https://uni-passau.zoom-x.de/j/64779445248?pwd=ffFmeSI6Mb0YbSjbpxTam3N6Q5hIwK.1" class="btn btn-season mx-3" target="_blank" rel="noopener">
                     <i class="bi bi-camera-video-fill me-2"></i>
                     Join the seminar
